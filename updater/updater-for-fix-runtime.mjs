@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+import * as semver from 'semver';
 import fs from 'fs';
 
 async function resolveUpdater() {
