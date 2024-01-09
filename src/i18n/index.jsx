@@ -21,7 +21,7 @@ import fa_IR from './locales/fa_IR.json';
 
 i18n.use(initReactI18next).init({
     fallbackLng: {
-        zh_tw: ['zh_cn'],
+        zh_tw: ['zh_CN'],
         zh_cn: ['zh_tw'],
         pt_pt: ['pt_br'],
         pt_br: ['pt_pt'],
@@ -34,7 +34,7 @@ i18n.use(initReactI18next).init({
         escapeValue: false,
     },
     resources: {
-        en: en_US,
+        en: en_US,en_US,
         zh_cn: zh_CN,
         zh_tw: zh_TW,
         ja: ja_JP,
@@ -49,7 +49,7 @@ i18n.use(initReactI18next).init({
         pt_br: pt_BR,
         nb_no: nb_NO,
         nn_no: nn_NO,
-        fa: fa_IR,
+        fa_IR: fa_IR,
     },
 });
 
