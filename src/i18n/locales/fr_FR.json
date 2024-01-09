@@ -3,7 +3,7 @@
         "services": {
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
+                    "appkey": "Clé d'application",
                     "key": "Clé",
                     "title": "Youdao"
                 },
@@ -121,7 +121,7 @@
                 "openai_polish": {
                     "title": "OpenAI Retouche"
                 },
-                "geminipro_polish": {},
+                "geminipro_polish": "Geminipro Polish",
                 "geminipro": {
                     "add": "Ajouter un prompt",
                     "api_key": "Clé API",
