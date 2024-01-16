@@ -1,0 +1,67 @@
+{
+  ...
+  "youdao": {
+    "appkey": "ID d'application",
+    "key": "Clé",
+    "title": "Youdao_FR"
+  },
+  "deepl": {
+    "free": "Gratuit",
+    ...
+  },
+  "chatglm": {
+    "title": "ChatGLM_FR",
+    ...
+  },
+  "transmart": {
+    "title": "TranSmart_FR",
+    ...
+  },
+  "caiyun": {
+    ...
+  },
+  "baidu": {
+    "appid": "ID d'application",
+    "title": "Baidu_FR",
+    "secret": "Clé secrète"
+  },
+  ...
+  "volcengine": {
+    "title": "VolcEngine_FR",
+    ...
+  },
+  ...
+  "chatglm_custom": {
+    "title": "ChatGLM_personnalisé_FR",
+    ...
+  },
+  ...
+  "geminipro_summary": {
+    "title": "Résumé de ChatGLM",
+    ...
+  },
+  ...
+  "qrcode": {
+    "title": "Code_QR_FR",
+    ...
+  },
+  ...
+  "tesseract": {
+    "title": "Tesseract.js",
+    ...
+  },
+  ...
+  "collection": {
+    "anki": {
+      "port": "Port",
+      "title": "Anki_FR"
+    },
+    ...
+  },
+  ...
+  "about": {
+    "title": "À_propos_FR",
+    ...
+  },
+  ...
+}
