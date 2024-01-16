@@ -269,7 +269,7 @@
             "ok": "Ok",
             "save": "Enregistrer",
             "clear": "Effacer",
-            "coming": "À venir…"
+            "coming_soon": "À venir…"
         },
         "config": {
             "general": {
@@ -310,11 +310,10 @@
                     "20": "Très large (20px)",
                     "18": "Large (18px)",
                     "14": "Petit (14px)",
-                    "16": "Standard (16px)",
+                    "16": "Standard (16px)"
                     "12": "Très petit (12px)",
                     "24": "Très très large (24px)",
-                    "10": "Très très petit (10px)",
-                    "title": "Taille de la police"
+                    "10": "Très très petit (10px)"
                 },
                 "app_font": "Police de caractères",
                 "app_fallback_font": "Police de caractères secondaire"
@@ -357,7 +356,7 @@
                     "24": "Très très grand (24px)",
                     "20": "Très grand (20px)",
                     "12": "Très petit (12px)",
-                    "16": "Normal (16px)",
+                    "16": "Normal (16px)"
                     "10": "Très très petit (10px)",
                     "18": "Grand (18px)"
                 }
