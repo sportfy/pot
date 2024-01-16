@@ -269,7 +269,7 @@
             "ok": "Ok",
             "save": "Enregistrer",
             "clear": "Effacer",
-            "coming": "À venir…"
+            "coming": "À venir..."
         },
         "config": {
             "general": {
@@ -328,7 +328,7 @@
                 "detect_engine": "Moteur de détection de langue",
                 "tencent": "Tencent",
                 "yandex": "Yandex",
-                "local": "Local",
+                "local": "Localisation"
                 "disable": "Désactiver",
                 "hide_window": "Masquer la fenêtre de traduction",
                 "remember_window_size": "Mémoriser la taille de la fenêtre",
@@ -420,7 +420,7 @@
                 "test_failed": "Le test a échoué"
             },
             "about": {
-                "title": "À propos de l'application",
+                "title": "À propos de l'application"
                 "qq_group": "Groupe QQ",
                 "website": "Site Web",
                 "check_update": "Vérifier les mises à jour",
