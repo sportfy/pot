@@ -89,7 +89,7 @@
                 }
             },
             "translate": {
-                "label": "Translate",
+                "label": "Translation Settings",
                 "title": "Translation Settings",
                 "source_language": "Source Language",
                 "target_language": "Target Language",
@@ -101,7 +101,7 @@
                 "disable": "Disable",
                 "incremental_translate": "Incremental Translate",
                 "dynamic_translate": "Dynamic Translate",
-                "delete_newline": "Delete Newline",
+                "Delete Newline": "Delete Newline",
                 "remember_language": "Remember Target Language",
                 "font_size": {
                     "title": "Font Size",
@@ -433,7 +433,7 @@
                     "title": "QR Code"
                 }
             },
-            "tts": {
+            "TTS": {
                 "lingva_tts": {
                     "title": "Lingva",
                     "request_path": "Request Path"
