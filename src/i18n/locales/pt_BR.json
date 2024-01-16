@@ -8,7 +8,8 @@
             "plugin": "Plugin",
             "coming": "Em breve…",
             "clear": "Claro"
-        },
+,
+        }
         "languages": {
             "auto": "Detectar Automaticamente",
             "zh_cn": "Chinês Simplificado",
