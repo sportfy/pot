@@ -58,35 +58,30 @@
                     "12": "Muito Pequena (12px)",
                     "16": "Padrão (16px)",
                     "10": "Muito, Muito Pequena (10px)",
-                    "18": "Grande (18px)"
-                },
-                "theme": {
-                    "light": "Luz",
-                    "dark": "Escuro",
-                    "system": "Sistema"
-                },
-                "transparent": "Efeito de Transparência",
-                "proxy": {
-                    "title": "Proxy",
-                    "host": "Host",
-                    "port": "Porta",
-                    "username": "Nome de usuário",
-                    "password": "Senha",
-                    "no_proxy": "Sem Proxy"
-                },
-                "proxy_change": "O proxy foi alterado. Reinicie o aplicativo para que as alterações tenham efeito",
-                "proxy_error": "Por favor preencha o host e a porta",
-                "tray_click_event": "Evento de Clique na Bandeja",
-                "event": {
-                    "config": "Configuração",
-                    "translate": "Traduzir",
-                    "disable": "Desabilitar",
-                    "ocr_recognize": "Reconhecimento de Texto",
-                    "ocr_translate": "Tradução de Imagem"
-                },
-                "default_font": "Padrão",
-                "app_font": "Fonte",
-                "app_fallback_font": "Fonte Reserva"
+                    "18": "Grande (18px)",
+                    "system": "Sistema",
+                    "transparent": "Transparência",
+                    "proxy": {
+                        "title": "Proxy",
+                        "host": "Host",
+                        "port": "Porta",
+                        "username": "Nome de usuário",
+                        "password": "Senha",
+                        "no_proxy": "Sem Proxy"
+                    },
+                    "proxy_change": "O proxy foi alterado. Reinicie o aplicativo para que as alterações tenham efeito",
+                    "proxy_error": "Por favor preencha o host e a porta",
+                    "tray_click_event": "Evento de Clique na Bandeja",
+                    "event": {
+                        "config": "Configuração",
+                        "translate": "Traduzir",
+                        "disable": "Desabilitar",
+                        "ocr_recognize": "Reconhecimento de Texto",
+                        "ocr_translate": "Tradução de Imagem"
+                    },
+                    "default_font": "Padrão",
+                    "app_font": "Fonte",
+                    "app_fallback_font": "Fonte Reserva"
             },
             "translate": {
                 "label": "Traduzir",
