@@ -455,9 +455,9 @@
             "copy": "Копировать",
             "retry": "Пробовать снова",
             "delete_newline": "Удалить новую строку",
-            "translate_back": "Перевод обратно к оригиналу"
+            "translate_back": "Перевести обратно"
         },
-        "recognize": {
+        "recognize": 
             "recognize": "Распознать",
             "translate": "Перевести",
             "copy_img": "Копировать изображение",
