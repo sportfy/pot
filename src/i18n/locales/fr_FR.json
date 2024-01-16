@@ -464,7 +464,7 @@
         "recognize": {
             "translate": "Traduire",
             "delete_newline": "Supprimer le retour à la ligne",
-            "recognize": "Reconnaissance",
+            "recognize": "reconnaissance",
             "copy_text": "Copier",
             "copy_img": "Copier l'image",
             "delete_space": "Supprimer l'espace"
