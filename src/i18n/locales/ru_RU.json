@@ -203,7 +203,7 @@
                 "qq_channel": "QQ канал",
                 "qq_group": "QQ группа",
                 "telegram": "Telegram",
-                "discussion": "Обсуждение на GitHub"
+                "discussion": "Обсуждение на Гитхабе"
             }
         },
         "updater": {
