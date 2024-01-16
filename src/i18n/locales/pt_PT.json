@@ -14,7 +14,7 @@
                 "youdao": {
                     "appkey": "ID do App",
                     "key": "Chave",
-                    "title": "Youdao"
+                    "title": "NEW_YOUDAO_TITLE"
                 },
                 "deepl": {
                     "free": "Gratuito",
