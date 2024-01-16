@@ -18,6 +18,27 @@ import nn_NO from './locales/nn_NO.json';
 import fa_IR from './locales/fa_IR.json';
 import uk_UA from './locales/uk_UA.json';
 
+resources: {
+    en: en_US,
+    zh_cn: zh_CN,
+    zh_tw: zh_TW,
+    ja: ja_JP,
+    ko: ko_KR,
+    fr: fr_FR,
+    es: es_ES,
+    ru: ru_RU,
+    de: de_DE,
+    it: it_IT,
+    tr: tr_TR,
+    pt_pt: pt_PT,
+    pt_br: pt_BR,
+    nb_no: nb_NO,
+    nn_no: nn_NO,
+    fa: fa_IR,
+    uk: uk_UA,
+    en: en_US,
+},
+
 // http://www.lingoes.net/zh/translator/langcode.htm
 
 i18n.use(initReactI18next).init({
