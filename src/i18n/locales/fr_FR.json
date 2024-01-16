@@ -7,6 +7,42 @@
                     "key": "Clé",
                     "title": "Youdao"
                 },
+                "fr": "Français"
+            }
+        }
+    },
+  "languages": {
+    "mn_cy": "Mongolien (Cyrillique)",
+    "ar": "Arabe",
+    "it": "Italien",
+    "vi": "Vietnamien",
+    "zh_cn": "Chinois simplifié",
+    "id": "Indonésien",
+    "zh_tw": "Chinois traditionnel",
+    "km": "Khmer",
+    "ru": "Russe",
+    "mn_mo": "Mongolien",
+    "en": "Anglais",
+    "th": "Thaï",
+    "ja": "Japonais",
+    "ms": "Malaisien",
+    "fr": "Français",
+    "de": "Allemand",
+    "es": "Espagnol",
+    "pt_pt": "Portugais",
+    "ko": "Coréen",
+    "tr": "Turc",
+    "auto": "Détection automatique",
+    "pt_br": "Portugais (Brésil)",
+    "hi": "Hindi",
+    "nl": "Néerlandais",
+    "sv": "Suédois",
+    "nb_no": "Norvégien Bokmål",
+    "fa": "Persan",
+    "pl": "Polonais",
+    "nn_no": "Norvégien Nynorsk"
+  }
+},
                 "deepl": {
                     "free": "Gratuit",
                     "deeplx": "DeepLX",
@@ -44,6 +80,15 @@
                     "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+  "common": {
+    "plugin": "Extension",
+    "cancel": "Annuler",
+    "write_clipboard": "Copier dans le presse-papiers",
+    "ok": "Ok",
+    "save": "Enregistrer",
+    "clear": "Effacer",
+    "coming": "À venir…"
+  },
                 "transmart": {
                     "username": "Nom d'utilisateur",
                     "title": "TranSmart",
