@@ -10,17 +10,17 @@ async function resolveUpdater() {
     let version = await getVersion(TOKEN);
     let changelog = await getChangeLog(TOKEN);
 
-    const darwin_aarch64 = `https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_aarch64.app.tar.gz`;
+    const darwin_aarch64 = `https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_aarch64.tar.gz`;
     const darwin_aarch64_sig = await getSignature(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_aarch64.app.tar.gz.sig`);
-    const darwin_x86_64 = `https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x64.app.tar.gz`;
+    const darwin_x86_64 = `https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x64.tar.gz`;
     const darwin_x86_64_sig = await getSignature(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x64.app.tar.gz.sig`);
-    const windows_x86_64 = `https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x64-setup.nsis.zip`;
+    const windows_x86_64 = `https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x64-setup.nsis.zip`;
     const windows_x86_64_sig = await getSignature(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x64-setup.nsis.zip.sig`);
-    const windows_i686 = `https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x86-setup.nsis.zip`;
+    const windows_i686 = `https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x86.nsis.zip`;
     const windows_i686_sig = await getSignature(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_x86-setup.nsis.zip.sig`);
-    const windows_aarch64 = `https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_arm64-setup.nsis.zip`;
+    const windows_aarch64 = `https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_arm64.nsis.zip`;
     const windows_aarch64_sig = await getSignature(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_arm64-setup.nsis.zip.sig`);
-    const linux_x86_64 = `https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_amd64.AppImage.tar.gz`;
+    const linux_x86_64 = `https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_amd64.AppImage.tar.gz`;
     const linux_x86_64_sig = await getSignature(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_amd64.AppImage.tar.gz.sig`);
 
     let updateData = {
@@ -34,9 +34,9 @@ async function resolveUpdater() {
             'windows-i686': { signature: windows_i686_sig, url: windows_i686 },
             'windows-aarch64': { signature: windows_aarch64_sig, url: windows_aarch64 },
             'linux-x86_64': { signature: linux_x86_64_sig, url: linux_x86_64 },
-            'linux-i686': { signature: darwin_aarch64_sig, url: darwin_aarch64 },
-            'linux-aarch64': { signature: darwin_aarch64_sig, url: darwin_aarch64 },
-            'linux-armv7': { signature: darwin_aarch64_sig, url: darwin_aarch64 },
+            ,
+            ,
+            ,
         },
     };
     fs.writeFile('./update.json', JSON.stringify(updateData), (e) => {
