@@ -1,0 +1,50 @@
+[timestamp] [error_type] [error_message]
+[timestamp] [error_type] [error_message]
+...
+```
+
+The file will store the gathered error logs, where each log entry will include the timestamp, error type, and error message.
+
+To implement this, I will create a function named `storeErrorLogs` that takes the error logs as input and writes them to the "logs/error.log" file. Here is the implementation:
+
+```javascript
+const fs = require('fs');
+
+function storeErrorLogs(errorLogs) {
+  const logFilePath = 'logs/error.log';
+  const logEntries = errorLogs.map((log) => `${log.timestamp} ${log.type} ${log.message}`).join('\n');
+  fs.appendFileSync(logFilePath, logEntries + '\n');
+}
+
+module.exports = {
+  storeErrorLogs,
+};
+```
+
+To ensure the functionality of the `storeErrorLogs` function, I will write comprehensive unit tests. Here is an example of the unit tests for the function:
+
+```javascript
+const fs = require('fs');
+const { storeErrorLogs } = require('./logs');
+
+describe('storeErrorLogs', () => {
+  beforeEach(() => {
+    // Clear the log file before each test
+    fs.writeFileSync('logs/error.log', '');
+  });
+
+  it('should store error logs in the log file', () => {
+    const errorLogs = [
+      { timestamp: '2022-01-01 10:00:00', type: 'Error', message: 'Error 1' },
+      { timestamp: '2022-01-01 11:00:00', type: 'Warning', message: 'Warning 1' },
+    ];
+
+    storeErrorLogs(errorLogs);
+
+    const logFileContent = fs.readFileSync('logs/error.log', 'utf8');
+    expect(logFileContent).toContain('2022-01-01 10:00:00 Error Error 1');
+    expect(logFileContent).toContain('2022-01-01 11:00:00 Warning Warning 1');
+  });
+
+  // Additional test cases for different scenarios and edge cases
+});
