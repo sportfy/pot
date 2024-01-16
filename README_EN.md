@@ -314,7 +314,7 @@ sudo pacman -S pot-translation
 
 Pot provides a complete HTTP interface for integration with other software. You can call pot by sending HTTP requests to `127.0.0.1:port`, where `port` is the listening port of pot, default to `60828`, and can be changed in the app settings.
 
-## API Docs:
+## HTTP API Documentation:
 
 ```bash
 POST "/" => Translate given text (body is text to translate)
@@ -362,7 +362,7 @@ OCR using Flameshot on Linux:
 rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && curl "127.0.0.1:60828/ocr_recognize?screenshot=false"
 ```
 
-## Existing Usages (Quick selection translation)
+## Quick Selection Translation
 
 ### SnipDo (Windows)
 
@@ -438,7 +438,7 @@ windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screensho
 
 This section has been updated to provide clear instructions for installation and compilation.
 
-## Manual compilation
+## Development and Testing
 
 ### Requirements
 
@@ -463,7 +463,7 @@ Developers can install dependencies and compile the application by following the
    pnpm tauri dev # Run the app in development mode
    ```
 
-## Common Compilation Issues and Solutions
+## Common Compilation Issues and Resolutions
 
 If you encounter errors during compilation, consider the following solutions:
 
