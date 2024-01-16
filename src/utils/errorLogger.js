@@ -18,6 +18,19 @@ function logError(error) {
 
   // Optionally, send error information to a remote error reporting service
   // reportErrorToService(errorMessage, stackTrace, additionalDetails);
+  const errorMessage = error.message;
+  const stackTrace = error.stack;
+  const additionalDetails = error.additionalDetails || '';
+
+  console.error('Error occurred:');
+  console.error(errorMessage);
+  console.error('Stack Trace:');
+  console.error(stackTrace);
+  console.error('Additional Details:');
+  console.error(additionalDetails);
+
+  // Optionally, send error information to a remote error reporting service
+  // reportErrorToService(errorMessage, stackTrace, additionalDetails);
 }
 
 module.exports = {
