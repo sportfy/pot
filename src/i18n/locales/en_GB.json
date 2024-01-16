@@ -1,0 +1,27 @@
+const fs = require('fs');
+
+function createLocalizationFile(filePath) {
+  const content = '{}';
+  fs.writeFileSync(filePath, content);
+}
+
+function addTranslations(filePath, translations) {
+  const existingContent = fs.readFileSync(filePath, 'utf8');
+  const existingTranslations = JSON.parse(existingContent);
+  const updatedTranslations = { ...existingTranslations, ...translations };
+  const updatedContent = JSON.stringify(updatedTranslations, null, 2);
+  fs.writeFileSync(filePath, updatedContent);
+}
+
+function createBritishEnglishLocalization() {
+  const filePath = 'src/i18n/locales/en_GB.json';
+  createLocalizationFile(filePath);
+
+  const translations = {
+    // Add necessary translations for British English here
+  };
+
+  addTranslations(filePath, translations);
+}
+
+createBritishEnglishLocalization();
