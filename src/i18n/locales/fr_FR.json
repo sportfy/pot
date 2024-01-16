@@ -10,7 +10,7 @@
                 "deepl": {
                     "free": "Gratuit",
                     "deeplx": "DeepLX",
-                    "type": "Type de service",
+                    "type": "NEW_TYPE",
                     "title": "DeepL",
                     "api": "Clé d'authentification",
                     "auth_key": "Clé d'authentification",
