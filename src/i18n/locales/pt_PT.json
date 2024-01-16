@@ -29,6 +29,9 @@
                     "openai": "OpenAI",
                     "request_path": "Caminho do Pedido",
                     "stream": "Modo de Stream",
+                "coming": "Em breve"
+            "coming": "Em breve..."
+            "coming": "Em breve..."
                     "service": "Prestador de serviços",
                     "model": "Modelo",
                     "add": "Adicionar Prompt",
