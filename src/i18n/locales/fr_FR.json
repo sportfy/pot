@@ -284,7 +284,7 @@
                     "no_proxy": "Pas de proxy"
                 },
                 "proxy_change": "Le proxy a été modifié. Relancez l'application pour que les modifications prennent effet",
-                "app_theme": "Thème",
+                "app_theme": "Apparence",
                 "event": {
                     "disable": "Désactiver",
                     "translate": "Traduire",
@@ -405,7 +405,7 @@
             "service": {
                 "add_service": "Ajouter un service",
                 "uninstall_success": "L'extension a bien été désinstallée",
-                "least": "Veuillez en conserver au moins un",
+                "least": "Veuillez en conserver au moins un.",
                 "tts": "TTS",
                 "homepage": "Page d'accueil",
                 "translate": "Traduire",
