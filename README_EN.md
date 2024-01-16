@@ -53,7 +53,10 @@
 
 | Clipboard Listening                                                                                                          | Screenshot OCR                     | Screenshot Translation                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------------- |
-| Click the top left icon on any translation panel to start clipboard listening. Copied text will be translated automatically. | Press shortcut, select area to OCR | Press shortcut, select area to translate |
+| Click the top left icon on any translation panel to start clipboard listening. Copied text will be translated automatically.1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
+- For M1, download `pot_{version}_aarch64.dmg`
+- For x64, download `pot_{version}_x64.dmg`
+| Press shortcut, select area to OCR | Press shortcut, select area to translate |
 | <img src="asset/eg4.gif"/>                                                                                                   | <img src="asset/eg5.gif"/>         | <img src="asset/eg6.gif"/>               |
 
 <div align="center">
@@ -151,7 +154,7 @@ You can find plugins you need in the [pot-app-plugin-list](https://github.com/po
 
 The file extension of pot plugin is `.potext`. After downloading the `.potext` file, go to Preferences - Service Settings - Add External Plugin - Install External Plugin to select the corresponding `.potext` to install it. It will then be added to the service list and can be used like a built-in service.
 
-### Troubleshooting
+## Common Compilation Issues and Solutions
 
 -   The specified module could not be found (Windows)
 
@@ -196,9 +199,7 @@ winget install Pylogmon.pot
 
 -   There is no interface after startup, and there is no response when clicking the tray icon.
 
-    1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
-   - For M1, download `pot_{version}_aarch64.dmg`
-   - For x64, download `pot_{version}_x64.dmg`
+    1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
 
 ## MacOS
 
@@ -229,7 +230,7 @@ brew upgrade --cask pot
    - For x64, download `pot_{version}_x64.dmg`
 2. Double click the downloaded file to install it.
 
-### Troubleshooting
+## Common Compilation Issues and Solutions
 
 -   "pot" can’t be opened because the developer cannot be verified.
 
@@ -415,7 +416,14 @@ pnpm >= 8.5.0
 
 Rust >= 1.70.0
 
-### Start compilation
+## Common Compilation Issues and Solutions
+
+If you encounter errors during compilation, consider the following solutions:
+
+- Node.js and pnpm: Ensure that you have the correct versions of Node.js and pnpm installed. You can check the required versions in the project documentation. Update Node.js and pnpm to the required versions if necessary.
+- C++ libraries: If you encounter "The specified module could not be found" errors on Windows, the system may lack necessary C++ libraries. Download and install the required C++ libraries for the project. Visit the referenced link [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) for more information.
+- Linux dependencies: On Linux, make sure to install the required system dependencies for the build. Use the package manager relevant to your distribution to install the necessary packages.
+- Rust compilation: Ensure that your Rust installation is up to date and at the required version. Install or update Rust as needed to resolve compilation issues.
 
 1. Clone the repository
 
