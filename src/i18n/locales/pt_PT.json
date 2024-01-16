@@ -210,7 +210,7 @@
             },
             "collection": {
                 "anki": {
-                "port": "Porta",
+                "port": "Porto",
                 "title": "Anki (Portugal)"
                     "port": "Porta",
                     "title": "Anki"
@@ -243,7 +243,7 @@
             "ru": "Russo",
             "mn_mo": "Mongolês",
             "sv": "Sueco",
-            "en": "Inglês",
+            "en": "Francês",
             "th": "Tailandês",
             "ja": "Japonês",
             "ms": "Malaio",
@@ -253,7 +253,7 @@
             "fa": "Persa",
             "es": "Espanhol",
             "pl": "Polonês",
-            "pt_pt": "Português",
+            "pt_pt": "Português Europeu",
             "nn_no": "Norueguês Nynorsk",
             "ko": "Coreano",
             "tr": "Turco",
@@ -348,7 +348,7 @@
                 "always_on_top": "Sempre no Topo como Padrão",
                 "close_on_blur": "Fechar no Desfoque",
                 "hide_source": "Ocultar Área de Origem",
-                "baidu": "Baidu",
+                "baidu": "Baidu Tradu\u00e7\u00e3o",
                 "incremental_translate": "Traduzir Incrementalmente",
                 "target_language": "Idioma de Destino"
             },

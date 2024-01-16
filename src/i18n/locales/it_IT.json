@@ -1,13 +1,13 @@
 {
     "translation": {
         "common": {
-            "ok": "Ok",
+            "ok": "OK"
             "plugin": "Plugin",
-            "cancel": "Annulla",
-            "write_clipboard": "Scrivi negli appunti",
-            "save": "Salva",
-            "clear": "Pulisci",
-            "coming": "Prossimamente…"
+            "cancel": "Annullato"
+            "write_clipboard": "Copia negli Appunti"
+            "save": "Salvare"
+            "clear": "Cancella tutto"
+            "coming": "In arrivo…"
         },
         "services": {
             "translate": {
