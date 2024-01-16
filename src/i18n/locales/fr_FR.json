@@ -3,7 +3,7 @@
         "services": {
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
+                    "appkey": "Clé d'application",
                     "key": "Clé",
                     "title": "Youdao"
                 },
@@ -14,7 +14,7 @@
                     "title": "DeepL",
                     "api": "Clé d'authentification",
                     "auth_key": "Clé d'authentification",
-                    "custom_url": "URL DeepLX"
+                    "custom_url": "URL personnalisée DeepLX"
                 },
                 "openai": {
                     "openai": "OpenAI",
@@ -29,7 +29,7 @@
                     "api_key": "Clé d'API"
                 },
                 "alibaba": {
-                    "accesskey_id": "ID AccessKey",
+                    "accesskey_id": "ID de la clé d'accès",
                     "accesskey_secret": "Clé secrète AccessKey",
                     "title": "Alibaba"
                 },
