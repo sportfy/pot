@@ -17,6 +17,13 @@ import nb_NO from './locales/nb_NO.json';
 import nn_NO from './locales/nn_NO.json';
 import fa_IR from './locales/fa_IR.json';
 import uk_UA from './locales/uk_UA.json';
+import ru_RU from './locales/ru_RU.json';
+import pt_PT from './locales/pt_PT.json';
+import tr_TR from './locales/tr_TR.json';
+import nb_NO from './locales/nb_NO.json';
+import nn_NO from './locales/nn_NO.json';
+import fa_IR from './locales/fa_IR.json';
+import uk_UA from './locales/uk_UA.json';
 
 // http://www.lingoes.net/zh/translator/langcode.htm
 
@@ -35,6 +42,8 @@ i18n.use(initReactI18next).init({
         escapeValue: false,
     },
     resources: {
+    ru: ru_RU,
+    pt_pt: pt_PT,
         en: en_US,
         zh_cn: zh_CN,
         zh_tw: zh_TW,
