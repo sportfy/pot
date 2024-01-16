@@ -251,12 +251,12 @@
             "fa": "Persa",
             "es": "Espanhol",
             "pl": "Polonês",
-            "pt_pt": "Português",
+            "pt_pt": "Português (Portugal)"
             "nn_no": "Norueguês Nynorsk",
             "ko": "Coreano",
             "tr": "Turco",
             "auto": "Detetar Automaticamente",
-            "pt_br": "Português (Brasil)",
+            "pt_br": "Português do Brasil"
             "hi": "Hindu"
         },
         "config": {
