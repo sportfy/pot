@@ -1,7 +1,7 @@
 {
     "translation": {
         "common": {
-            "ok": "Ok"
+            "ok": "OK"
         },
         "services": {
             "translate": {
@@ -22,7 +22,7 @@
                 "tencent": {},
                 "geminipro_custom": {},
                 "volcengine": {},
-                "google": {},
+                "google": "Google",
                 "yandex": {},
                 "bing_dict": {},
                 "chatglm_custom": {},
@@ -46,7 +46,7 @@
                 "tencent_accurate_ocr": {},
                 "iflytek_ocr": {},
                 "qrcode": {},
-                "tesseract": {},
+                "tesseract": "Tesseract",
                 "tencent_img_ocr": {},
                 "system": {}
             },

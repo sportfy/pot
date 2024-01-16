@@ -46,7 +46,7 @@
                 "tencent_accurate_ocr": {},
                 "iflytek_ocr": {},
                 "qrcode": {},
-                "tesseract": {},
+                "tesseract": "Tesseract OCR",
                 "tencent_img_ocr": {},
                 "system": {}
             },
@@ -74,14 +74,14 @@
                 "font_size": {}
             },
             "backup": {},
-            "recognize": {},
-            "hotkey": {},
+            "recognize": "Recognition",
+            "hotkey": "Keyboard Shortcuts",
             "service": {},
             "about": {},
             "history": {}
         },
         "translate": {},
-        "updater": {},
+        "history": "History",
         "recognize": {}
     }
 }

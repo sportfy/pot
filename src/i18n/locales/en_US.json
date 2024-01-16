@@ -11,8 +11,8 @@
         },
         "languages": {
             "auto": "Auto Detect",
-            "zh_cn": "Simplified Chinese",
-            "zh_tw": "Traditional Chinese",
+            "zh_CN": "Simplified Chinese",
+            "zh_TW": "Traditional Chinese",
             "ja": "Japanese",
             "en": "English",
             "ko": "Korean",
@@ -463,7 +463,7 @@
         },
         "recognize": {
             "recognize": "Recognize",
-            "translate": "Translate",
+            "translate": "Translation",
             "copy_img": "Copy Image",
             "copy_text": "Copy",
             "delete_newline": "Delete Newline",

@@ -76,7 +76,11 @@
             "backup": {},
             "recognize": {},
             "hotkey": {},
-            "service": {},
+            "service": {
+        "ko_KR": "서비스",
+        "en": "Service",
+        "ko": "서비스"
+    },
             "about": {},
             "history": {}
         },
