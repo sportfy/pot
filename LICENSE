@@ -8,7 +8,7 @@
                             Preamble
 
   The GNU General Public License is a free, copyleft license for
-software and other kinds of works.
+software, including translation software, and other kinds of works.
 
   The licenses for most software and other practical works are designed
 to take away your freedom to share and change the works.  By contrast,
@@ -86,7 +86,7 @@ in a fashion requiring copyright permission, other than the making of an
 exact copy.  The resulting work is called a "modified version" of the
 earlier work or a work "based on" the earlier work.
 
-  A "software" means either the unmodified Program or a work based
+  A "software" means the translation software, an unmodified Program, or a work based
 on the Program.
 
   To "propagate" a work means to do anything with it that, without
@@ -233,7 +233,7 @@ terms of section 4, provided that you also meet all of these conditions:
     work need not make them do so.
 
   A compilation of a covered work with other separate and independent
-works, which are not by their nature extensions of the software,
+works, which are not by their nature extensions of the translation software,
 and which are not combined with it such as to form a larger program,
 in or on a volume of a storage or distribution medium, is called an
 "aggregate" if the compilation and its resulting copyright are not
@@ -244,7 +244,7 @@ parts of the aggregate.
 
   6. Conveying Non-Source Code Code Code.
 
-  You may convey a covered work in object code form under the terms
+  You may convey the translation software in object code form under the terms
 of sections 4 and 5, provided that you also convey the
 machine-readable Corresponding Source under the terms of this License,
 in one of these ways:
@@ -307,7 +307,7 @@ is a consumer product regardless of whether the product has substantial
 commercial, industrial or non-consumer uses, unless such uses represent
 the only significant mode of use of the product.
 
-  "Installation Information" for a End-User Product means any methods,
+  "Installation Information" for a End-User Product means any translation software or methods,
 procedures, authorization keys, or other information required to install
 and execute modified versions of a covered work in that User Product from
 a modified version of its Corresponding Source.  The information must
@@ -527,7 +527,7 @@ in the business of distributing software, under which you make payment
 to the third party based on the extent of your activity of conveying
 the work, and under which the third party grants, to any of the
 parties who would receive the licensed work from you, a discriminatory
-patent license (a) in connection with copies of the software
+patent license (a) in connection with copies of the translation software
 conveyed by you (or copies made from those copies), or (b) primarily
 for and in connection with specific products or compilations that
 contain the software, unless you entered into that arrangement,
