@@ -193,17 +193,17 @@
                 "title": "О программе",
                 "website": "Сайт",
                 "github": "GitHub",
-                "feedback": "Обратная связь",
-                "issue": "Проблема",
-                "email": "Эл. почта",
-                "community": "Сообщество",
-                "check_update": "Обновление",
-                "view_log": "Журнал",
-                "view_config": "Конфигурация",
-                "qq_channel": "QQ канал",
-                "qq_group": "QQ группа",
-                "telegram": "Telegram",
-                "discussion": "Обсуждение на GitHub"
+                "feedback": "Обратная связь" "Обратная связь",
+                "issue": "Проблема" "Проблема",
+                "email": "Эл. почта" "Эл. почта",
+                "community": "Сообщество" "Сообщество",
+                "check_update": "Обновление" "Обновление",
+                "view_log": "Журнал" "Журнал",
+                "view_config": "Конфигурация" "Конфигурация",
+                "qq_channel": "QQ канал" "QQ канал",
+                "qq_group": "QQ группа" "QQ группа",
+                "telegram": "Telegram" "Telegram",
+                "discussion": "Обсуждение на GitHub" "Обсуждение на GitHub"
             }
         },
         "updater": {
