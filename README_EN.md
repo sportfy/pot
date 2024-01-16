@@ -442,9 +442,9 @@ This section has been updated to provide clear instructions for installation and
 
 ### Requirements
 
-Node.js >= 18.0.0
+Node.js (LTS version)
 
-pnpm >= 8.5.0
+pnpm >= 6.14.4
 
 
 
