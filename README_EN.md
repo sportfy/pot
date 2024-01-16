@@ -164,15 +164,45 @@ The [Template](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_E
 
 </div>
 
+## Installation
+
+-   **Windows**:
+    -   For 64-bit machine, download `pot_{version}_x64.exe`
+    -   For 32-bit machine, download `pot_{version}_x86.exe`
+    -   For arm64 machine, download `pot_{version}_arm64.exe`
+    -   Double click the downloaded file to install it.
+-   **macOS**:
+    -   For M1, download `pot_{version}_aarch64.dmg`
+    -   For x64, download `pot_{version}_x64.dmg`
+    -   Double click the downloaded file to install it.
+
 ## Windows
 
-### Install via Winget
+### Install via Chocolatey
 
 ```powershell
-winget install Pylogmon.pot
+choco install pot-translation --params='/DesktopIcon' -y
 ```
 
-### Install Manually
+### Install via Scoop
+
+```powershell
+scoop bucket add extras
+scoop install pot
+```
+
+## MacOS
+
+## Installation
+
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
+2. Double click the downloaded file to install it.
+
+```bash
+brew install --cask pot
+```
 
 1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
    - For 64-bit machine, download `pot_{version}_x64-setup.exe`
@@ -193,7 +223,16 @@ winget install Pylogmon.pot
 
 ## MacOS
 
-### Install via Brew
+## MacOS
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
+2. Double click the downloaded file to install it.
+
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
+2. Double click the downloaded file to install it.
 
 1. Add our tap:
 
@@ -275,7 +314,7 @@ sudo pacman -S pot-translation
 
 Pot provides a complete HTTP interface for integration with other software. You can call pot by sending HTTP requests to `127.0.0.1:port`, where `port` is the listening port of pot, default to `60828`, and can be changed in the app settings.
 
-## API Docs:
+## HTTP API Documentation:
 
 ```bash
 POST "/" => Translate given text (body is text to translate)
@@ -323,7 +362,7 @@ OCR using Flameshot on Linux:
 rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && curl "127.0.0.1:60828/ocr_recognize?screenshot=false"
 ```
 
-## Existing Usages (Quick selection translation)
+## Quick Selection Translation
 
 ### SnipDo (Windows)
 
@@ -399,13 +438,13 @@ windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screensho
 
 This section has been updated to provide clear instructions for installation and compilation.
 
-## Manual compilation
+## Development and Testing
 
 ### Requirements
 
-Node.js >= 18.0.0
+Node.js (LTS version)
 
-pnpm >= 8.5.0
+pnpm >= 6.14.4
 
 
 
@@ -424,7 +463,7 @@ Developers can install dependencies and compile the application by following the
    pnpm tauri dev # Run the app in development mode
    ```
 
-## Common Compilation Issues and Solutions
+## Common Compilation Issues and Resolutions
 
 If you encounter errors during compilation, consider the following solutions:
 
