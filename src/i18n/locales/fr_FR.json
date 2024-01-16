@@ -417,7 +417,7 @@
                 "title": "Paramètres de service",
                 "add_builtin_service": "Ajouter un service intégré",
                 "label": "Service",
-                "test_failed": "Le test a échoué"
+                "test_failed": "Le test a échoué" "Le test a échoué"
             },
             "about": {
                 "title": "À propos de l'application",
