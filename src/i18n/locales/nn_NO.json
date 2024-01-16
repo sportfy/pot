@@ -59,7 +59,9 @@
                 "lingva_tts": {}
             }
         },
-        "languages": {},
+        "languages": {
+            "nn_NO": "Nynorsk"
+        },
         "config": {
             "general": {
                 "proxy": {},
