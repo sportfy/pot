@@ -165,19 +165,19 @@
             "about": {
                 "label": "關於應用",
                 "title": "關於應用",
-                "website": "官網",
-                "github": "GitHub",
-                "feedback": "問題回饋",
-                "issue": "議題",
-                "email": "電郵",
-                "community": "社區交流",
-                "check_update": "檢查更新",
-                "view_log": "檢視記錄檔",
-                "view_config": "檢視設定檔",
-                "qq_channel": "QQ 頻道",
-                "qq_group": "QQ 群",
-                "telegram": "Telegram",
-                "discussion": "Github 討論"
+                "官網": "官網",
+                "GitHub": "GitHub",
+                "問題回饋": "問題回饋",
+                "議題": "議題",
+                "電郵": "電郵",
+                "社區交流": "社區交流",
+                "檢查更新": "檢查更新",
+                "檢視記錄檔": "檢視記錄檔",
+                "檢視設定檔": "檢視設定檔",
+                "QQ 頻道": "QQ 頻道",
+                "QQ 群": "QQ 群",
+                "Telegram": "Telegram",
+                "Github 討論": "Github 討論"
             }
         },
         "updater": {
