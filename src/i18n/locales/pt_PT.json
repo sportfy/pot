@@ -388,7 +388,7 @@
                 "selection_translate": "Traduzir Seleção",
                 "ocr_recognize": "Reconhecimento de Texto"
             },
-            "service": {
+            "Serviço": {
                 "add_service": "Adicionar Serviço",
                 "uninstall_success": "Plug-in desinstalado com sucesso",
                 "least": "Por favor, mantenha pelo menos um",
@@ -402,8 +402,8 @@
                 "add_external_service": "Adicionar Extensão",
                 "title": "Configuração do Serviço",
                 "add_builtin_service": "Adicionar Serviço Integrado",
-                "label": "Serviço",
-                "test_failed": "Teste Falhou"
+                "Serviço": "Serviço",
+                "Teste Falhou": "Teste Falhou"
             },
             "about": {
                 "title": "Sobre a Aplicação",
@@ -412,7 +412,7 @@
                 "check_update": "Procurar Atualização",
                 "telegram": "Telegram",
                 "feedback": "Realimentação",
-                "label": "Sobre",
+                "Serviço": "Sobre",
                 "view_config": "Exibir Configuração",
                 "issue": "Problemas",
                 "community": "Comunidade",
