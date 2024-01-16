@@ -346,7 +346,7 @@
                 "source_language": "Langue d'origine",
                 "pre_state": "Mémoriser la position",
                 "always_on_top": "Toujours au premier plan par défaut",
-                "close_on_blur": "Fermer si plus au premier plan",
+                "close_on_blur": "Fermer en cas de perte de focus",
                 "hide_source": "Masquer la zone de la langue d'origine",
                 "baidu": "Baidu",
                 "incremental_translate": "Traduction incrémentale",
@@ -385,7 +385,7 @@
             "recognize": {
                 "delete_newline": "Suppression automatique des retours à la ligne",
                 "language": "Reconnaître la langue",
-                "close_on_blur": "Fermer si plus au premier plan",
+                "close_on_blur": "Fermer en cas de perte de focus",
                 "title": "Paramètres de reconnaissance",
                 "label": "Reconnaissance",
                 "hide_window": "Masquer la fenêtre de reconnaissance",

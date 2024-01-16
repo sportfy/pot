@@ -19,7 +19,7 @@
             "fr": "Französisch",
             "es": "Spanisch",
             "ru": "Russisch",
-            "de": "Deutsch",
+            "de": "Deutsch"
             "it": "Italienisch",
             "tr": "Türkisch",
             "pt_pt": "Portugiesisch",
@@ -101,7 +101,7 @@
                 "disable": "Deaktivieren",
                 "incremental_translate": "Inkrementelle Übersetzung",
                 "dynamic_translate": "Dynamische Übersetzung",
-                "delete_newline": "Automatisches Löschen von Zeilenumbrüchen",
+                "delete_newline": "Automatisches Löschen von Zeilenumbrüchen"
                 "remember_language": "Zielsprache merken",
                 "font_size": {
                     "title": "Schriftgröße",
