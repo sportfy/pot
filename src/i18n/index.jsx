@@ -15,6 +15,9 @@ import pt_PT from './locales/pt_PT.json';
 import tr_TR from './locales/tr_TR.json';
 import nb_NO from './locales/nb_NO.json';
 import nn_NO from './locales/nn_NO.json';
+import nn_NO from './locales/nn_NO.json';
+import fa_IR from './locales/fa_IR.json';
+import uk_UA from './locales/uk_UA.json';
 import fa_IR from './locales/fa_IR.json';
 import uk_UA from './locales/uk_UA.json';
 
@@ -56,3 +59,6 @@ i18n.use(initReactI18next).init({
 });
 
 export default i18n;
+import nn_NO from './locales/nn_NO.json';
+import fa_IR from './locales/fa_IR.json';
+import uk_UA from './locales/uk_UA.json';
