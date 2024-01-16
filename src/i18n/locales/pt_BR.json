@@ -38,6 +38,21 @@
             "fa": "Persa",
             "nl": "Holandês",
             "sv": "Sueco",
+            "pl": "Polonês",
+            "vi": "Vietnamita",
+            "id": "Indonésio",
+            "th": "Tailandês",
+            "ms": "Malaio",
+            "ar": "Árabe",
+            "hi": "Hindu",
+            "mn_mo": "Mongolês",
+            "mn_cy": "Mongolês (Cirílico)",
+            "km": "Khmer",
+            "nb_no": "Bokmål Norueguês",
+            "nn_no": "Norueguês Nynorsk",
+            "fa": "Persa",
+            "nl": "Holandês",
+            "sv": "Sueco",
             "pl": "Polonês"
         },
         "config": {
@@ -471,3 +486,5 @@
         }
     }
 }
+                "prompt_description": "Ao personalizar o Prompt, você pode personalizar o comportamento do OpenAI. $text $from $to $detect será substituído pelo texto a ser traduzido, idioma de origem, idioma de destino e idioma detectado.",
+                "add": "Adicionar Prompt"
