@@ -149,7 +149,11 @@ The built-in services are limited. But you can expand the app's functionality th
 
 You can find plugins you need in the [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) repo, and then go to the plugin repo to download it.
 
-The file extension of pot plugin is `.potext`. After downloading the `.potext` file, go to Preferences - Service Settings - Add External Plugin - Install External Plugin to select the corresponding `.potext` to install it. It will then be added to the service list and can be used like a built-in service.
+## Running the GitHub Actions Workflow
+
+The list below includes specific requirements and dependencies to successfully run the GitHub Actions workflow.
+
+- The file extension of pot plugin is `.potext`. After downloading the `.potext` file, go to Preferences - Service Settings - Add External Plugin - Install External Plugin to select the corresponding `.potext` to install it. It will then be added to the service list and can be used like a built-in service.
 
 ### Troubleshooting
 
@@ -173,7 +177,7 @@ The [Template](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_E
 
 ## Windows
 
-### Install via Winget
+### Troubleshooting
 
 ```powershell
 winget install Pylogmon.pot
@@ -406,13 +410,27 @@ windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screensho
 
 ### Requirements
 
-Node.js >= 18.0.0
+## Building and Testing
 
-pnpm >= 8.5.0
+To build and test the app, follow the instructions below:
+
+### Specific Requirements
+
+- pnpm >= 6.14.7
+- Node.js >= 14.18.1
+- Rust >= 1.5.0
 
 Rust >= 1.70.0
 
-### Start compilation
+## Running the GitHub Actions Workflow
+
+The list below includes specific requirements and dependencies to successfully run the GitHub Actions workflow:
+
+## Requirements and Dependencies for GitHub Actions Workflow
+
+The list below includes specific requirements and dependencies to successfully run the GitHub Actions workflow:
+
+### Requirements
 
 1. Clone the repository
 
@@ -427,13 +445,23 @@ Rust >= 1.70.0
     pnpm install
     ```
 
-3. Install dependencies(Only Linux)
+## Common Issues and Troubleshooting
+
+If you encounter any issues during the GitHub Actions workflow, you can refer to the troubleshooting steps below:
 
     ```bash
     sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
     ```
 
-4. Development (Optional)
+## Building and Testing
+
+To build and test the app, follow the instructions below:
+
+## Common Issues and Troubleshooting
+
+If you encounter any issues during the GitHub Actions workflow, you can refer to the troubleshooting steps below:
+
+If you encounter any issues while running the GitHub Actions Workflow, refer to the troubleshooting steps below:
 
     ```bash
     pnpm tauri dev # Run the app in development mode
