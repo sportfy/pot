@@ -13,6 +13,8 @@ import ja_JP from './locales/ja_JP.json';
 import ko_KR from './locales/ko_KR.json';
 import pt_PT from './locales/pt_PT.json';
 import tr_TR from './locales/tr_TR.json';
+
+const locales = { zh_CN, zh_TW, en_US, ru_RU, pt_BR, de_DE, es_ES, fr_FR, it_IT, ja_JP, ko_KR, pt_PT, tr_TR, nb_NO };
 import nb_NO from './locales/nb_NO.json';
 import nn_NO from './locales/nn_NO.json';
 import nn_NO from './locales/nn_NO.json';
