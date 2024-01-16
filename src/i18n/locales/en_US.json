@@ -6,7 +6,7 @@
             "save": "Save",
             "write_clipboard": "Write to Clipboard",
             "plugin": "Plugin",
-            "coming": "Coming soon…",
+            "coming": "Coming Soon...",
             "clear": "Clear"
         },
         "languages": {
@@ -22,7 +22,7 @@
             "de": "German",
             "it": "Italian",
             "tr": "Turkish",
-            "pt_pt": "Portuguese",
+            "pt_pt": "Portuguese (Portugal)",
             "pt_br": "Portuguese (Brazil)",
             "vi": "Vietnamese",
             "id": "Indonesian",
