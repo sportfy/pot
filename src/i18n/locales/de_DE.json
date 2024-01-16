@@ -94,7 +94,7 @@
                 "source_language": "Quellsprache",
                 "target_language": "Zielsprache",
                 "second_language": "Zweite Zielsprache",
-                "auto_copy": "Automatisch kopieren",
+                "auto_copy": "Auf Updates pr\u00fcfen",
                 "source": "Quelltext",
                 "target": "Übersetzung",
                 "source_target": "Quelltext + Übersetzung",
@@ -433,7 +433,7 @@
                     "title": "QR-Code-Erkennung"
                 }
             },
-            "tts": {
+            "check_update": "Beim Start Updates \u00fcberpr\u00fcfen"
                 "lingva_tts": {
                     "title": "Lingva",
                     "request_path": "Request-Pfad"

@@ -204,61 +204,7 @@
                     "title": "Tradução de Imagem da Tencent",
                     "secret_key": "Chave Secreta"
                 },
-                "system": {
-                    "title": "OCR do Sistema"
-                }
-            },
-            "collection": {
-                "anki": {
-                    "port": "Porta",
-                    "title": "Anki"
-                },
-                "eudic": {
-                    "token": "Token",
-                    "name": "Nome da Coleção",
-                    "title": "Eudic"
-                }
-            },
-            "help": "Guia de Configuração",
-            "no_need": "Nenhuma Configuração Requerida",
-            "tts": {
-                "lingva_tts": {
-                    "title": "Lingva",
-                    "request_path": "Caminho do Pedido"
-                }
-            }
-        },
-        "languages": {
-            "mn_cy": "Mongolês (Cirílico)",
-            "ar": "Árabe",
-            "it": "Italiano",
-            "vi": "Vietnamita",
-            "zh_cn": "Chinês Simplificado",
-            "nl": "Holandês",
-            "id": "Indonésio",
-            "zh_tw": "Chinês Tradicional",
-            "km": "Khmer",
-            "ru": "Russo",
-            "mn_mo": "Mongolês",
-            "sv": "Sueco",
-            "en": "Inglês",
-            "th": "Tailandês",
-            "ja": "Japonês",
-            "ms": "Malaio",
-            "fr": "Francês",
-            "de": "Alemão",
-            "nb_no": "Bokmål Norueguês",
-            "fa": "Persa",
-            "es": "Espanhol",
-            "pl": "Polonês",
-            "pt_pt": "Português",
-            "nn_no": "Norueguês Nynorsk",
-            "ko": "Coreano",
-            "tr": "Turco",
-            "auto": "Detetar Automaticamente",
-            "pt_br": "Português (Brasil)",
-            "hi": "Hindu"
-        },
+                "view_log": "Exibir Registro",
         "config": {
             "general": {
                 "tray_click_event": "Evento de Clique na Bandeja",

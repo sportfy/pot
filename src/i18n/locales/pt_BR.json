@@ -45,7 +45,7 @@
                 "label": "Geral",
                 "title": "Configurações Gerais",
                 "auto_start": "Iniciar Automaticamente",
-                "check_update": "Checar por Atualização",
+                "check_update": "Checar por Atualiza\u00e7\u00e3o",
                 "server_port": "Porta de Escuta",
                 "server_port_change": "A porta de escuta foi alterada. Reinicie o aplicativo para que as alterações tenham efeito",
                 "app_language": "Idioma do Aplicativo",

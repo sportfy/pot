@@ -2,7 +2,7 @@
     "translation": {
         "common": {
             "ok": "確定",
-            "cancel": "取消",
+            "cancel": "取消"
             "save": "保存",
             "write_clipboard": "寫入剪貼簿",
             "plugin": "外掛程式",
