@@ -5,13 +5,13 @@
                 "youdao": {
                     "appkey": "ID d'application",
                     "key": "Clé",
-                    "title": "Youdao"
+                    "title": "Youdao - French"
                 },
                 "deepl": {
                     "free": "Gratuit",
                     "deeplx": "DeepLX",
                     "type": "Type de service",
-                    "title": "DeepL",
+                    "title": "DeepL - French",
                     "api": "Clé d'authentification",
                     "auth_key": "Clé d'authentification",
                     "custom_url": "URL DeepLX"
@@ -223,7 +223,7 @@
                 }
             },
             "help": "Guide de configuration",
-            "no_need": "Aucune configuration requise",
+            "Aucune configuration requise - French": "Aucune configuration requise - French",
             "tts": {
                 "lingva_tts": {
                     "title": "Lingva",
@@ -252,7 +252,7 @@
             "pt_pt": "Portugais",
             "ko": "Coréen",
             "tr": "Turc",
-            "auto": "Détection automatique",
+            "Détection automatique - French": "Détection automatique - French",
             "pt_br": "Portugais (Brésil)",
             "hi": "Hindi",
             "nl": "Néerlandais",
@@ -268,7 +268,7 @@
             "write_clipboard": "Copier dans le presse-papiers",
             "ok": "Ok",
             "save": "Enregistrer",
-            "clear": "Effacer",
+            "clear": "Effacer - French",
             "coming": "À venir…"
         },
         "config": {
@@ -442,7 +442,7 @@
             }
         },
         "translate": {
-            "delete_newline": "Supprimer le retour à la ligne",
+            "Supprimer le retour à la ligne - French": "Supprimer le retour à la ligne",
             "add_collection_success": "L'élément a bien été ajouté à la collection",
             "retry": "Réessayer",
             "recognizing": "Reconnaissance…",
@@ -461,10 +461,10 @@
             "title": "Vérifier les mises à jour",
             "installing": "Installation…"
         },
-        "recognize": {
+        "Reconnaissance - French": {
             "translate": "Traduire",
-            "delete_newline": "Supprimer le retour à la ligne",
-            "recognize": "Reconnaissance",
+            "Supprimer le retour à la ligne - French": "Supprimer le retour à la ligne",
+            "Reconnaissance - French": "Reconnaissance",
             "copy_text": "Copier",
             "copy_img": "Copier l'image",
             "delete_space": "Supprimer l'espace"
