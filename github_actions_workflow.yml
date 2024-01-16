@@ -6,11 +6,19 @@ on:
       - main
   pull_request_target:
     branches:
+      - main#
+
+on:
+  push:
+    branches:
+      - main
+  pull_request_target:
+    branches:
       - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest#
 
     steps:
       - name: Checkout repository
@@ -30,6 +38,8 @@ jobs:
 
       - name: Run tests
         run: npm run test
+      - name: Deploy application
+        run: npm run deploy
 
       - name: Deploy application
         run: npm run deploy
