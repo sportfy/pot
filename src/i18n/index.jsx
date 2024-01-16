@@ -17,6 +17,13 @@ import nb_NO from './locales/nb_NO.json';
 import nn_NO from './locales/nn_NO.json';
 import fa_IR from './locales/fa_IR.json';
 import uk_UA from './locales/uk_UA.json';
+import nl_NL from './locales/nl_NL.json';
+import ms_MY from './locales/ms_MY.json';
+import ar_SA from './locales/ar_SA.json';
+import hi_IN from './locales/hi_IN.json';
+import mn_MO from './locales/mn_MO.json';
+import mn_CY from './locales/mn_CY.json';
+import km_KH from './locales/km_KH.json';
 
 // http://www.lingoes.net/zh/translator/langcode.htm
 
@@ -28,6 +35,13 @@ i18n.use(initReactI18next).init({
         pt_br: ['pt_pt'],
         nb_no: ['nn_no'],
         nn_no: ['nb_no'],
+        nl_nl: ['en'],
+        ms_my: ['en'],
+        ar_sa: ['en'],
+        hi_in: ['en'],
+        mn_mo: ['en'],
+        mn_cy: ['en'],
+        km_kh: ['en'],
         default: ['en'],
     },
     debug: false,
@@ -52,6 +66,13 @@ i18n.use(initReactI18next).init({
         nn_no: nn_NO,
         fa: fa_IR,
         uk: uk_UA,
+        nl_nl: nl_NL,
+        ms_my: ms_MY,
+        ar_sa: ar_SA,
+        hi_in: hi_IN,
+        mn_mo: mn_MO,
+        mn_cy: mn_CY,
+        km_kh: km_KH,
     },
 });
 
