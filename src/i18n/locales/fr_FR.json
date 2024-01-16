@@ -44,6 +44,28 @@
                     "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
+                =======
+                "chatglm": {
+                    "title": "ChatGLM",
+                    "api_key": "Clé d'API",
+                    "chatglm_lite": "ChatGLM Lite",
+                    "chatglm_pro": "ChatGLM Pro",
+                    "model": "Modèle",
+                    "chatglm_std": "ChatGLM Std",
+                    "add": "Ajouter une invite",
+                    "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
+                    "chatglm_turbo": "ChatGLM Turbo"
+                }
+                    "title": "ChatGLM",
+                    "api_key": "Clé d'API",
+                    "chatglm_lite": "ChatGLM Lite",
+                    "chatglm_pro": "ChatGLM Pro",
+                    "model": "Modèle",
+                    "chatglm_std": "ChatGLM Std",
+                    "add": "Ajouter une invite",
+                    "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
+                    "chatglm_turbo": "ChatGLM Turbo"
+                },
                 "transmart": {
                     "username": "Nom d'utilisateur",
                     "title": "TranSmart",
@@ -169,6 +191,7 @@
                     "client_secret": "Clé secrète",
                     "client_id": "Clé d'API",
                     "title": "Reconnaissance d'image de Baidu (précise)"
+                },
                 },
                 "baidu_img_ocr": {
                     "secret": "Clé secrète",
