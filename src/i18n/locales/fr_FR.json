@@ -447,7 +447,7 @@
             "retry": "Réessayer",
             "recognizing": "Reconnaissance…",
             "translate_back": "Revenir à la traduction d'origine",
-            "translate": "Traduire",
+            "test_failed": "\u00c9chec du test","retry": "R\u00e9essayer","recognizing": "Reconnaissance…","translate_back": "Revenir \u00e0 la traduction d'origine","translate": "Traduire",
             "copy": "Copier",
             "speak": "Écouter"
         },
