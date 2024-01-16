@@ -193,21 +193,21 @@
                 "empty": "Sie haben noch keine Backups"
             },
             "about": {
-                "label": "Über die App",
-                "title": "Über die App",
-                "website": "Offizielle Website",
+                "label": "About",
+                "title": "About the Application",
+                "website": "Official Website",
                 "github": "GitHub",
                 "feedback": "Feedback",
-                "issue": "Problem melden",
-                "email": "E-Mail",
-                "community": "Community-Forum",
-                "check_update": "Auf Updates prüfen",
-                "view_log": "Logdatei anzeigen",
-                "view_config": "Konfigurationsdatei anzeigen",
-                "qq_channel": "QQ Kanal",
-                "qq_group": "QQ Gruppe",
+                "issue": "Issues",
+                "email": "Email",
+                "community": "Community",
+                "check_update": "Check for Updates",
+                "view_log": "View Log",
+                "view_config": "View Config",
+                "qq_channel": "QQ Channel",
+                "qq_group": "QQ Group",
                 "telegram": "Telegram",
-                "discussion": "Diskussion auf GitHub"
+                "discussion": "Discussion on GitHub"
             }
         },
         "updater": {
