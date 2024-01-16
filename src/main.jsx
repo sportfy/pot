@@ -1,7 +1,7 @@
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
 import { appWindow } from '@tauri-apps/api/window';
 import { NextUIProvider } from '@nextui-org/react';
-import ReactDOM from 'react-dom/client';
+import { unstable_createRoot } from 'react-dom';
 import React from 'react';
 
 import { initStore } from './utils/store';
@@ -30,7 +30,7 @@ document.addEventListener('keydown', async (e) => {
 initStore().then(async () => {
     await initEnv();
     const rootElement = document.getElementById('root');
-    const root = ReactDOM.createRoot(rootElement);
+    const root = unstable_createRoot(rootElement).unstable_createRoot
     root.render(
         <NextUIProvider>
             <NextThemesProvider attribute='class'>
