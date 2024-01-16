@@ -441,8 +441,11 @@ Rust >= 1.70.0
 
 5. Build
     ```bash
-    pnpm tauri build # Build into installation package
+    npm run build # Build into installation package
     ```
+
+6.  ## Acknowledgement
+-   [GitHub Actions Workflow](https://github.com/pot-app/pot-desktop/actions/workflows/main.yml)
 
 <div align="center">
 
