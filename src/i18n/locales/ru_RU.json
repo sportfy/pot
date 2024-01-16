@@ -173,38 +173,7 @@
                 "title": "История"
             },
             "backup": {
-                "label": "Бэкап",
-                "title": "Настройка бэкапа",
-                "type": "Тип сервиса",
-                "webdav": "WebDav",
-                "local": "Локально",
-                "webdav_url": "Ссылка WebDav",
-                "username": "Имя пользователя",
-                "password": "Пароль",
-                "backup": "Бэкап",
-                "restore": "Восстановить",
-                "list": "Список бэкапов",
-                "load_success": "Успешная загрузка бэкапа",
-                "backup_success": "Бэкап выполнен",
-                "empty": "Вы ещё не создали бэкап"
-            },
-            "about": {
-                "label": "О программе",
-                "title": "О программе",
-                "website": "Сайт",
-                "github": "GitHub",
                 "feedback": "Обратная связь",
-                "issue": "Проблема",
-                "email": "Эл. почта",
-                "community": "Сообщество",
-                "check_update": "Обновление",
-                "view_log": "Журнал",
-                "view_config": "Конфигурация",
-                "qq_channel": "QQ канал",
-                "qq_group": "QQ группа",
-                "telegram": "Telegram",
-                "discussion": "Обсуждение на GitHub"
-            }
         },
         "updater": {
             "title": "Проверка обновления",
