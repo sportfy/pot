@@ -197,13 +197,13 @@
                 "issue": "Проблема",
                 "email": "Эл. почта",
                 "community": "Сообщество",
-                "check_update": "Обновление",
-                "view_log": "Журнал",
-                "view_config": "Конфигурация",
+                "check_update": "Проверить обновления",
+                "view_log": "Просмотреть журнал",
+                "view_config": "Просмотреть конфигурацию",
                 "qq_channel": "QQ канал",
                 "qq_group": "QQ группа",
                 "telegram": "Telegram",
-                "discussion": "Обсуждение на GitHub"
+                "discussion": "Обсуждение на ГитХаб"
             }
         },
         "updater": {
