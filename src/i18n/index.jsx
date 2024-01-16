@@ -17,6 +17,8 @@ import nb_NO from './locales/nb_NO.json';
 import nn_NO from './locales/nn_NO.json';
 import fa_IR from './locales/fa_IR.json';
 import uk_UA from './locales/uk_UA.json';
+import fa_IR from './locales/fa_IR.json';
+import uk_UA from './locales/uk_UA.json';
 
 // http://www.lingoes.net/zh/translator/langcode.htm
 

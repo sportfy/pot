@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs2:
+  build2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build application
+        run: npm run build
+
+      - name: Run tests
+        run2: npm test
+        uses2: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build application
+        run: npm run build
+
+      - name: Run tests
+        run: npm test
+```
+
+File: `src/i18n/index.jsx`
+
+```jsx
+import i18n from 'i18next';
+import zh_CN from './locales/zh_CN.json';
+import zh_TW from './locales/zh_TW.json';
+import en_US from './locales/en_US.json';
+import ru_RU from './locales/ru_RU.json';
+import pt_BR from './locales/pt_BR.json';
+import de_DE from './locales/de_DE.json';
+import es_ES from './locales/es_ES.json';
+import fr_FR from './locales/fr_FR.json';
+import it_IT from './locales/it_IT.json';
+import ja_JP from './locales/ja_JP.json';
+import ko_KR from './locales/ko_KR.json';
+import pt_PT from './locales/pt_PT.json';
+import tr_TR from './locales/tr_TR.json';
+import nb_NO from './locales/nb_NO.json';
+import nn_NO from './locales/nn_NO.json';
+import fa_IR from './locales/fa_IR.json';
+import uk_UA from './locales/uk_UA.json';
+
+// Remove duplicate imports of fa_IR and uk_UA locales
+
+i18n.init({
+  // i18n configuration
+});
