@@ -35,13 +35,13 @@
                 },
                 "chatglm": {
                     "title": "ChatGLM",
-                    "api_key": "Clé d'API",
+                    "api_key": "NEW_API_KEY",
                     "chatglm_lite": "ChatGLM Lite",
                     "chatglm_pro": "ChatGLM Pro",
                     "model": "Modèle",
                     "chatglm_std": "ChatGLM Std",
                     "add": "Ajouter une invite",
-                    "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
+                    "prompt_description": "NEW_Prompt_Description",
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
                 "transmart": {
