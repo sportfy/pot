@@ -404,7 +404,13 @@ windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screensho
 
 ## Manual compilation
 
-### Requirements
+### Running the GitHub Actions Workflow
+
+Node.js >= 18.0.0
+
+pnpm >= 8.5.0
+
+Rust >= 1.70.0
 
 Node.js >= 18.0.0
 
@@ -433,13 +439,18 @@ Rust >= 1.70.0
     sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
     ```
 
-4. Development (Optional)
+## Troubleshooting Steps for the Workflow
+
+### Development (Optional)
 
     ```bash
     pnpm tauri dev # Run the app in development mode
     ```
 
-5. Build
+5. Troubleshooting Steps for the Workflow
+```bash
+pnpm tauri build # Build into installation package
+```
     ```bash
     pnpm tauri build # Build into installation package
     ```
