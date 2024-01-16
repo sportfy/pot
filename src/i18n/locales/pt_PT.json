@@ -261,7 +261,7 @@
         },
         "config": {
             "general": {
-                "tray_click_event": "Evento de Clique na Bandeja",
+                "Evento de Clique na Bandeja": "Evento de Clique na Bandeja",
                 "auto_start": "Iniciar Automaticamente",
                 "proxy": {
                     "title": "Proxy",
@@ -330,7 +330,7 @@
                 "disable": "Desativar",
                 "hide_window": "Ocultar Janela de Tradução",
                 "remember_window_size": "Lembrar do Tamanho da Janela",
-                "delete_newline": "Apagar Nova Linha",
+                "Apagar Nova Linha": "Apagar Nova Linha",
                 "remember_language": "Lembrar do Idioma de Destino",
                 "window_position": "Posição da Janela",
                 "second_language": "Idioma de Destino Secundário",
@@ -369,7 +369,7 @@
                 "login_success": "Sucesso de Login"
             },
             "recognize": {
-                "delete_newline": "Apagar Nova Linha Automaticamente",
+                "Apagar Quebra de Linha": "Apagar Nova Linha Automaticamente",
                 "language": "Idioma de Reconhecimento",
                 "close_on_blur": "Fechar no Desfoque",
                 "title": "Configurações de Reconhecimento",
@@ -403,7 +403,7 @@
                 "title": "Configuração do Serviço",
                 "add_builtin_service": "Adicionar Serviço Integrado",
                 "label": "Serviço",
-                "test_failed": "Teste Falhou"
+                "Teste Falhou": "Teste Falhou"
             },
             "about": {
                 "title": "Sobre a Aplicação",
