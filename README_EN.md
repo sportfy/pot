@@ -163,7 +163,40 @@ The file extension of pot plugin is `.potext`. After downloading the `.potext` f
 
 ## Develop Plugin
 
+### Troubleshooting
+- The specified module could not be found (Windows)
+  - Errors like this occur because the system lacks C++ libraries，Go to [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) download and install it.
+- Not a valid Win32 application (Windows)
+  - An error like this indicates that you did not download the plugin for the corresponding system or architecture. Go to the plugin repository and download the correct plugin to solve the problem.
+
+## Develop Plugin
+
 The [Template](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_EN.md#template) section in the [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) repo provides plugin development templates for various plugins. Please check the corresponding template repo for specific documentation.
+
+ div align="center">
+
+# Installation
+  
+
+## Windows
+
+### Install via Winget
+  
+
+```powershell
+winget install Pylogmon.pot
+```
+
+## Perform Manual Installation
+1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page.
+
+   - For 64-bit machines, download `pot_{version}_x64-setup.exe`
+   - For 32-bit machines, download `pot_{version}_x86-setup.exe`
+   - For arm64 machines, download `pot_{version}_arm64-setup.exe`
+2. Double click the downloaded file to install it.
+
+## 调试和解决（Troubleshooting）
+- There is no interface after startup, and there is no response when clicking the tray icon.The [Template](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_EN.md#template) section in the [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) repo provides plugin development templates for various plugins. Please check the corresponding template repo for specific documentation.
 
 <div align="center">
 
@@ -193,7 +226,33 @@ winget install Pylogmon.pot
 
 -   There is no interface after startup, and there is no response when clicking the tray icon.
 
-    Check if WebView2 is uninstalled/disabled, if so, install WebView2 manually or restore it.
+<div align="center">
+
+# Installation
+  
+
+## MacOS
+
+### Install via Brew
+  
+
+```bash
+brew tap pot-app/homebrew-tap
+brew install --cask potrew upgrade --cask pot
+```
+### Perform Manual Installation
+- Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
+- Double click the downloaded file to install it.
+
+### Troubleshooting
+- "pot" can’t be opened because the developer cannot be verified.
+  - Click the Cancel button, then go to the Settings -> Privacy and Security page, click the Still Open button, and then click the Open button in the pop-up window. After that, there will be no more pop-up warnings when opening pot.
+  - If you cannot find the above options in Privacy & Security, or get error prompts such as broken files with Apple Silicon machines. Open Terminal.app and enter the following command (you may need to enter a password halfway through), then restart pot:
+
+      ```
+sudo xattr -d com.apple.quarantine /Applications/pot.app
+**Note:** Replace `pot.app` with the actual app name if it's different.
+```    Check if WebView2 is uninstalled/disabled, if so, install WebView2 manually or restore it.
 
     If the enterprise edition system is inconvenient to install or cannot install WebView2, please try to download the fix WebView2 version `pot_{version} at [Release](https://github.com/pot-app/pot-desktop/releases/latest) _{arch}_fix_webview2_runtime-setup.exe`
 
@@ -344,7 +403,7 @@ rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/
 
 ### Starry (Linux)
 
-> Starry is still in the development stage, so you can only compile him manually
+> Starry is still in the development stage, so you can only compile it manually
 
 Github: [ccslykx/Starry](https://github.com/ccslykx/Starry)
 
