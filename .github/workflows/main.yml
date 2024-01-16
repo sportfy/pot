@@ -1,16 +1,17 @@
-name: GitHub Actions Workflow
+name: Continuous Integration Workflow
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
+      - main, develop
 
 env:
-  OS: ubuntu-latest
+  CI_OS: ubuntu-latest
 
 jobs:
-  build:
-    runs-on: ${{ env.OS }}
+  test_build:
+  test_build:
+    runs-on: ${{ env.CI_OS }}
 
     steps:
       - name: Checkout repository
