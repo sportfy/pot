@@ -9,7 +9,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-orange?logo=rust&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows&logoColor=white)
-![MacOS](https://img.shields.io/badge/-macOS-black?&logo=apple&logoColor=white)
+![macOS](https://img.shields.io/badge/-macOS-black?&logo=apple&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-yellow?logo=linux&logoColor=white)
 
 <br/>
@@ -106,7 +106,7 @@ More Services see [Plugin System](#plugin-system)
 
 -   [x] System OCR (Offline)
     -   [x] [Windows.Media.OCR](https://learn.microsoft.com/en-us/uwp/api/windows.media.ocr.ocrengine?view=winrt-22621) on Windows
-    -   [x] [Apple Vision Framework](https://developer.apple.com/documentation/vision/recognizing_text_in_images) on MacOS
+    -   [x] [Apple Vision Framework](https://developer.apple.com/documentation/vision/recognizing_text_in_images) on macOS
     -   [x] [Tesseract OCR](https://github.com/tesseract-ocr) on Linux
 -   [x] [Tesseract.js](https://tesseract.projectnaptha.com/) (Offline)
 -   [x] [Baidu](https://ai.baidu.com/tech/ocr/general)
@@ -193,13 +193,13 @@ winget install Pylogmon.pot
 
 -   There is no interface after startup, and there is no response when clicking the tray icon.
 
-    Check if WebView2 is uninstalled/disabled, if so, install WebView2 manually or restore it.
+    Check if WebView2 is uninstalled/disabled. If so, install WebView2 manually or restore it.
 
     If the enterprise edition system is inconvenient to install or cannot install WebView2, please try to download the fix WebView2 version `pot_{version} at [Release](https://github.com/pot-app/pot-desktop/releases/latest) _{arch}_fix_webview2_runtime-setup.exe`
 
     If the issue persists, please try starting in Windows 7 compatibility mode.
 
-## MacOS
+## macOS
 
 ### Install via Brew
 
@@ -221,7 +221,7 @@ brew install --cask pot
 brew upgrade --cask pot
 ```
 
-### Install Manually
+### Installation Manually
 
 1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
 2. Double click the downloaded file to install it.
@@ -335,7 +335,7 @@ rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/
 3. Double click the downloaded file to install it.
 4. Selection some text, you can see the pot icon in the upper right corner of the selection, click the icon to translate.
 
-### PopClip (MacOS)
+### PopClip (macOS)
 
 1. Download and install PopClip in the [App Store](https://apps.apple.com/us/app/popclip/id445189367?mt=12)
 2. Download the PopClip extension of pot from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) (pot.popclipextz)
