@@ -8,7 +8,7 @@
             "plugin": "Plugin",
             "coming": "Bald verfügbar…",
             "clear": "Leeren"
-        },
+        },,
         "languages": {
             "auto": "Automatisch erkennen",
             "zh_cn": "Chinesisch (vereinfacht)",
