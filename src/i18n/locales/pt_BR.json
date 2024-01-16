@@ -190,7 +190,7 @@
                 "logout": "Sair",
                 "login_success": "Entrou com sucesso",
                 "aliyun_login_first": "Por favor, leia o código para fazer login primeiro.",
-                "aliyun": "Aliyun Drive"
+                "aliyun": "NEW_ALIYUN_DRIVE"
             },
             "about": {
                 "label": "Sobre",
