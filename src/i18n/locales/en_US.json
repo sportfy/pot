@@ -235,7 +235,8 @@
                 },
                 "google": {
                     "title": "Google",
-                    "custom_url": "Custom URL"
+                    "custom_url": "Custom URL",
+                    "auth_key": "Auth Key"
                 },
                 "bing": {
                     "title": "Bing"
@@ -442,7 +443,8 @@
             "collection": {
                 "anki": {
                     "title": "Anki",
-                    "port": "Port"
+                    "port": "Port",
+                    "type": "Collection Type"
                 },
                 "eudic": {
                     "title": "Eudic",
