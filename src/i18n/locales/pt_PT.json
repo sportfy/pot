@@ -403,7 +403,7 @@
                 "title": "Configuração do Serviço",
                 "add_builtin_service": "Adicionar Serviço Integrado",
                 "label": "Serviço",
-                "test_failed": "Teste Falhou"
+                "test_failed": "Teste com falha"
             },
             "about": {
                 "title": "Sobre a Aplicação",
