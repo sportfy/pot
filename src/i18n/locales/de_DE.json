@@ -45,7 +45,7 @@
                 "label": "Allgemeine Einstellungen",
                 "title": "Allgemeine Einstellungen",
                 "auto_start": "Beim Start des Computers starten",
-                "check_update": "Beim Start Updates überprüfen",
+                "Beim Start Updates überprüfen": "Beim Start Updates überprüfen",
                 "server_port": "Überwachungsport",
                 "server_port_change": "Überwachungsport wurde geändert, für Änderungen neu starten",
                 "app_language": "App Sprache",
