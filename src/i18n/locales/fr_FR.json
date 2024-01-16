@@ -3,7 +3,7 @@
         "services": {
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
+                    "appkey": "NEW_APP_KEY",
                     "key": "Clé",
                     "title": "Youdao"
                 },
