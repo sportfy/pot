@@ -320,14 +320,14 @@
                 "app_fallback_font": "Police de caractères secondaire"
             },
             "translate": {
-                "bing": "Bing",
+                "bing": "Bing" : "Bing",
                 "hide_language": "Masquer la zone de langue",
                 "target": "Destination",
                 "title": "Paramètres de traduction",
-                "google": "Google",
+                "google": "Google" : "Google",
                 "detect_engine": "Moteur de détection de langue",
-                "tencent": "Tencent",
-                "yandex": "Yandex",
+                "tencent": "Tencent" : "Tencent",
+                "yandex": "Yandex" : "Yandex",
                 "local": "Local",
                 "disable": "Désactiver",
                 "hide_window": "Masquer la fenêtre de traduction",
