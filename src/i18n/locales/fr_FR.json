@@ -1,5 +1,5 @@
 {
-    "translation": {
+    "traduction": {
         "services": {
             "translate": {
                 "youdao": {
@@ -13,8 +13,8 @@
                     "type": "Type de service",
                     "title": "DeepL",
                     "api": "Clé d'authentification",
-                    "auth_key": "Clé d'authentification",
-                    "custom_url": "URL DeepLX"
+                    "Clé d'authentification": "Clé d'authentification",
+                    "URL DeepLX": "URL DeepLX"
                 },
                 "openai": {
                     "openai": "OpenAI",
@@ -223,9 +223,9 @@
                 }
             },
             "help": "Guide de configuration",
-            "no_need": "Aucune configuration requise",
-            "tts": {
-                "lingva_tts": {
+            "Aucune configuration requise": "Aucune configuration requise",
+            "TTS": {
+                "Lingva": {
                     "title": "Lingva",
                     "request_path": "Chemin de la requête"
                 }
@@ -290,7 +290,7 @@
                     "translate": "Traduire",
                     "ocr_translate": "Traduction de capture d'écran",
                     "config": "Configuration",
-                    "ocr_recognize": "Reconnaissance de texte"
+                    "Reconnaissance de texte": "Reconnaissance de texte"
                 },
                 "label": "Général",
                 "theme": {
@@ -342,7 +342,7 @@
                 "auto_copy": "Copie automatique",
                 "dynamic_translate": "Traduction dynamique",
                 "mouse": "Suivre la souris",
-                "source_target": "Origine+Destination",
+                "Origine+Destination": "Origine+Destination",
                 "source_language": "Langue d'origine",
                 "pre_state": "Mémoriser la position",
                 "always_on_top": "Toujours au premier plan par défaut",
@@ -404,7 +404,7 @@
             },
             "service": {
                 "add_service": "Ajouter un service",
-                "uninstall_success": "L'extension a bien été désinstallée",
+                "uninstall_success": "L'ajouter a bien été désinstallée",
                 "least": "Veuillez en conserver au moins un",
                 "tts": "TTS",
                 "homepage": "Page d'accueil",
@@ -428,13 +428,13 @@
                 "feedback": "Commentaires",
                 "label": "À propos",
                 "view_config": "Voir la configuration",
-                "issue": "Bug",
+                "Bug": "Bug",
                 "community": "Communauté",
                 "email": "E-mail",
                 "github": "GitHub",
                 "discussion": "Discussion GitHub",
                 "qq_channel": "Canal QQ",
-                "view_log": "Voir les journaux"
+                "Voir les logs": "Voir les journaux"
             },
             "history": {
                 "label": "Historique",
