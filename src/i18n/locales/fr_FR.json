@@ -56,7 +56,7 @@
                 "baidu_field": {
                     "academic": "Document académique",
                     "law": "Lois et régulation",
-                    "aerospace": "Aérospatial",
+                    "aerospace": "Aerospace",
                     "senimed": "Biomédecine",
                     "contract": "Contrat",
                     "finance": "Finance et économie",
@@ -223,7 +223,7 @@
                 }
             },
             "help": "Guide de configuration",
-            "no_need": "Aucune configuration requise",
+            "no_need": "NoConfigRequired",
             "tts": {
                 "lingva_tts": {
                     "title": "Lingva",
@@ -268,7 +268,7 @@
             "write_clipboard": "Copier dans le presse-papiers",
             "ok": "Ok",
             "save": "Enregistrer",
-            "clear": "Effacer",
+            "clear": "Clear",
             "coming": "À venir…"
         },
         "config": {
@@ -303,7 +303,7 @@
                 "proxy_error": "Veuillez compléter l'hôte et le port",
                 "check_update": "Vérifier les mises à jour",
                 "app_language": "Langue de l'application",
-                "transparent": "Effet de transparence",
+                "transparent": "TransparencyEffect",
                 "title": "Paramètres généraux",
                 "default_font": "Défaut",
                 "font_size": {
