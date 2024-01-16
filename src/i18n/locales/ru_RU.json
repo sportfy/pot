@@ -1,13 +1,13 @@
 {
     "translation": {
         "common": {
-            "ok": "ОК",
-            "cancel": "Отмена",
-            "save": "Сохранить",
-            "write_clipboard": "Сохранить в буфер обмена",
-            "plugin": "Плагин",
-            "coming": "Скоро…",
-            "clear": "Очистить"
+            "ok": "OK",
+            "cancel": "Cancel",
+            "save": "Save",
+            "write_clipboard": "Save to Clipboard",
+            "plugin": "Plugin",
+            "coming": "Coming Soon",
+            "clear": "Clear"
         },
         "languages": {
             "auto": "Автоопределение",
