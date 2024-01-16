@@ -14,7 +14,7 @@
                 "youdao": {
                     "appkey": "ID do App",
                     "key": "Chave",
-                    "title": "Youdao"
+                    "github": "GitHub",\n                "key": "Chave",
                 },
                 "deepl": {
                     "free": "Gratuito",
