@@ -173,62 +173,8 @@
                 "title": "Histórico"
             },
             "backup": {
-                "label": "Backup",
-                "title": "Configurações de Backup",
-                "type": "Tipo de Serviço",
-                "webdav": "WebDav",
-                "local": "Local",
-                "webdav_url": "URL do WebDav",
-                "username": "Nome de Usuário",
-                "password": "Senha",
-                "backup": "Backup",
-                "restore": "Restaurar",
-                "list": "Lista de Backup",
-                "load_success": "Carregar Backup com Sucesso",
-                "backup_success": "Backup com Sucesso",
-                "empty": "Você não fez backup ainda",
-                "logout": "Sair",
-                "login_success": "Entrou com sucesso",
-                "aliyun_login_first": "Por favor, leia o código para fazer login primeiro.",
-                "aliyun": "Aliyun Drive"
-            },
-            "about": {
-                "label": "Sobre",
-                "title": "Sobre o Aplicativo",
-                "website": "Website",
-                "github": "GitHub",
-                "feedback": "Realimentação",
-                "issue": "Problemas",
-                "email": "Email",
-                "community": "Comunidade",
-                "check_update": "Checar por Atualização",
-                "view_log": "Exibir Registro",
-                "view_config": "Exibir Configuração",
-                "qq_channel": "Canal no QQ",
-                "qq_group": "Grupo QQ",
-                "telegram": "Telegram",
-                "discussion": "Discussão no GitHub"
-            }
-        },
-        "updater": {
-            "title": "Checar por Atualização",
-            "latest": "## A versão mais recente está instalada",
-            "progress": "Progresso do Download",
-            "update": "Atualizar",
-            "downloading": "Baixando…",
-            "installing": "Instalando…",
-            "cancel": "Cancelar",
-            "installed": "Instalação concluída, reinicie o aplicativo para que as alterações entrem em vigor"
-        },
-        "services": {
-            "help": "Guia de Configuração",
-            "no_need": "Nenhuma Configuração Requerida",
-            "translate": {
-                "deepl": {
-                    "title": "DeepL",
-                    "custom_url": "URL de DeepLX",
-                    "auth_key": "Chave de Autorização",
-                    "type": "Tipo de Serviço",
+                "about": {
+                    "title": "Sobre o Aplicativo",
                     "free": "Gratuito",
                     "api": "Chave de Autorização",
                     "deeplx": "DeepLX"
