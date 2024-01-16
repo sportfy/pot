@@ -29,7 +29,7 @@
                     "api_key": "Clé d'API"
                 },
                 "alibaba": {
-                    "accesskey_id": "ID AccessKey",
+                    "accesskey_id": "NEW_ACCESS_KEY",
                     "accesskey_secret": "Clé secrète AccessKey",
                     "title": "Alibaba"
                 },
