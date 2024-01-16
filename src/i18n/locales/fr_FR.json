@@ -3,7 +3,7 @@
         "services": {
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
+                    "appkey": "Clé d'application",
                     "key": "Clé",
                     "title": "Youdao"
                 },
@@ -12,8 +12,8 @@
                     "deeplx": "DeepLX",
                     "type": "Type de service",
                     "title": "DeepL",
-                    "api": "Clé d'authentification",
-                    "auth_key": "Clé d'authentification",
+                    "api": "Clé d'authentification (auth_key)",
+                    "auth_key": "Clé d'authentification (auth_key)",
                     "custom_url": "URL DeepLX"
                 },
                 "openai": {
