@@ -5,7 +5,7 @@
                 "youdao": {
                     "appkey": "ID d'application",
                     "key": "Clé",
-                    "title": "Youdao"
+                    "title": "Youdao_FR"
                 },
                 "deepl": {
                     "free": "Gratuit",
@@ -34,7 +34,7 @@
                     "title": "Alibaba"
                 },
                 "chatglm": {
-                    "title": "ChatGLM",
+                    "title": "ChatGLM_FR",
                     "api_key": "Clé d'API",
                     "chatglm_lite": "ChatGLM Lite",
                     "chatglm_pro": "ChatGLM Pro",
@@ -46,7 +46,7 @@
                 },
                 "transmart": {
                     "username": "Nom d'utilisateur",
-                    "title": "TranSmart",
+                    "title": "TranSmart_FR",
                     "token": "Jeton"
                 },
                 "caiyun": {
@@ -64,7 +64,7 @@
                     "it": "Informatique",
                     "news": "Actualités et information",
                     "machinery": "Production de machines",
-                    "title": "Champ Baidu",
+                    "title": "Champ_Baidu_FR",
                     "novel": "Littérature Internet"
                 },
                 "cambridge_dict": {
@@ -75,7 +75,7 @@
                 },
                 "baidu": {
                     "appid": "ID d'application",
-                    "title": "Baidu",
+                    "title": "Baidu_FR",
                     "secret": "Clé secrète"
                 },
                 "niutrans": {
@@ -89,7 +89,7 @@
                     "secret_id": "ID de clé secrète"
                 },
                 "volcengine": {
-                    "title": "VolcEngine",
+                    "title": "VolcEngine_FR",
                     "appid": "ID de l'application",
                     "secret": "Clé secrète"
                 },
@@ -104,7 +104,7 @@
                     "title": "Dictionnaire Bing"
                 },
                 "chatglm_custom": {
-                    "title": "ChatGLM personnalisé"
+                    "title": "ChatGLM_personnalisé_FR"
                 },
                 "chatglm_summary": {
                     "title": "Résumé de ChatGLM"
@@ -125,7 +125,7 @@
                     "add": "Ajouter un prompt",
                     "api_key": "Clé API",
                     "stream": "Mode streaming",
-                    "title": "Gemini Pro",
+                    "title": "Gemini Pro_FR",
                     "prompt_description": "En personnalisant le prompt, vous pouvez personnaliser le comportement de Gemini Pro. $text $from $to $detect sera remplacé par le texte à traduire, la langue source, la langue cible et la langue détectée."
                 },
                 "geminipro_summary": {
@@ -197,7 +197,7 @@
                     "apisecret": "Clé secrète de l'API"
                 },
                 "qrcode": {
-                    "title": "Code QR"
+                    "title": "Code_QR_FR"
                 },
                 "tesseract": {
                     "title": "Tesseract.js"
@@ -214,7 +214,7 @@
             "collection": {
                 "anki": {
                     "port": "Port",
-                    "title": "Anki"
+                    "title": "Anki_FR"
                 },
                 "eudic": {
                     "token": "Jeton",
@@ -426,7 +426,7 @@
                 "check_update": "Vérifier les mises à jour",
                 "telegram": "Telegram",
                 "feedback": "Commentaires",
-                "label": "À propos",
+                "label": "À_propos_FR",
                 "view_config": "Voir la configuration",
                 "issue": "Bug",
                 "community": "Communauté",
