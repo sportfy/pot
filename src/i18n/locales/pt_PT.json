@@ -251,7 +251,7 @@
             "fa": "Persa",
             "es": "Espanhol",
             "pl": "Polonês",
-            "pt_pt": "Português",
+            "pt_PT": "Português (Portugal)",
             "nn_no": "Norueguês Nynorsk",
             "ko": "Coreano",
             "tr": "Turco",
@@ -450,7 +450,7 @@
         "recognize": {
             "translate": "Traduzir",
             "delete_newline": "Apagar Quebra de Linha",
-            "recognize": "Reconhecimento",
+            "resumo": "Resumo",
             "copy_text": "Copiar",
             "delete_space": "Apagar Espaço",
             "copy_img": "Copiar imagem"
