@@ -42,7 +42,7 @@
 
 <div align="center">
 
-# Usage
+# How to Use
 
 </div>
 
@@ -53,7 +53,10 @@
 
 | Clipboard Listening                                                                                                          | Screenshot OCR                     | Screenshot Translation                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------------- |
-| Click the top left icon on any translation panel to start clipboard listening. Copied text will be translated automatically. | Press shortcut, select area to OCR | Press shortcut, select area to translate |
+| Click the top left icon on any translation panel to start clipboard listening. Copied text will be translated automatically.1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
+- For M1, download `pot_{version}_aarch64.dmg`
+- For x64, download `pot_{version}_x64.dmg`
+| Press shortcut, select area to OCR | Press shortcut, select area to translate |
 | <img src="asset/eg4.gif"/>                                                                                                   | <img src="asset/eg5.gif"/>         | <img src="asset/eg6.gif"/>               |
 
 <div align="center">
@@ -151,7 +154,7 @@ You can find plugins you need in the [pot-app-plugin-list](https://github.com/po
 
 The file extension of pot plugin is `.potext`. After downloading the `.potext` file, go to Preferences - Service Settings - Add External Plugin - Install External Plugin to select the corresponding `.potext` to install it. It will then be added to the service list and can be used like a built-in service.
 
-### Troubleshooting
+## Common Compilation Issues and Solutions
 
 -   The specified module could not be found (Windows)
 
@@ -181,7 +184,10 @@ winget install Pylogmon.pot
 
 ### Install Manually
 
-1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page.
+1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
+   - For 64-bit machine, download `pot_{version}_x64-setup.exe`
+   - For 32-bit machine, download `pot_{version}_x86-setup.exe`
+   - For arm64 machine, download `pot_{version}_arm64-setup.exe`
 
     - 64-bit machine download `pot_{version}_x64-setup.exe`
     - 32-bit machine download `pot_{version}_x86-setup.exe`
@@ -193,11 +199,7 @@ winget install Pylogmon.pot
 
 -   There is no interface after startup, and there is no response when clicking the tray icon.
 
-    Check if WebView2 is uninstalled/disabled, if so, install WebView2 manually or restore it.
-
-    If the enterprise edition system is inconvenient to install or cannot install WebView2, please try to download the fix WebView2 version `pot_{version} at [Release](https://github.com/pot-app/pot-desktop/releases/latest) _{arch}_fix_webview2_runtime-setup.exe`
-
-    If the issue persists, please try starting in Windows 7 compatibility mode.
+    1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
 
 ## MacOS
 
@@ -206,7 +208,8 @@ winget install Pylogmon.pot
 1. Add our tap:
 
 ```bash
-brew tap pot-app/homebrew-tap
+## MacOS
+- Add the pot tap:
 ```
 
 2. Install pot:
@@ -223,10 +226,14 @@ brew upgrade --cask pot
 
 ### Install Manually
 
-1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
+1. Download the installation package from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+
+## MacOS
+- For M1, download `pot_{version}_aarch64.dmg`
+- For x64, download `pot_{version}_x64.dmg`
 2. Double click the downloaded file to install it.
 
-### Troubleshooting
+## Common Compilation Issues and Solutions
 
 -   "pot" can’t be opened because the developer cannot be verified.
 
@@ -402,6 +409,8 @@ windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screensho
 
 <img src="https://github.com/pot-app/.github/blob/master/pot-desktop-contributions.svg?raw=true" width="100%"/>
 
+This section has been updated to provide clear instructions for installation and compilation.
+
 ## Manual compilation
 
 ### Requirements
@@ -410,9 +419,31 @@ Node.js >= 18.0.0
 
 pnpm >= 8.5.0
 
-Rust >= 1.70.0
+### Manual Compilation
 
-### Start compilation
+Developers can install dependencies and compile the application by following the steps outlined below:
+
+1. Ensure that you have the correct versions of Node.js and pnpm installed. You can check the required versions in the project documentation. Update Node.js and pnpm to the required versions if necessary.
+
+2. If you encounter 'The specified module could not be found' errors on Windows, the system may lack necessary C++ libraries. Download and install the required C++ libraries for the project. Visit the referenced link [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) for more information.
+
+3. On Linux, make sure to install the required system dependencies for the build. Use the package manager relevant to your distribution to install the necessary packages.
+
+4. Ensure that your Rust installation is up to date and at the required version. Install or update Rust as needed to resolve compilation issues.
+
+   ```bash
+   git clone https://github.com/pot-app/pot-desktop.git
+   pnpm tauri dev # Run the app in development mode
+   ```
+
+## Common Compilation Issues and Solutions
+
+If you encounter errors during compilation, consider the following solutions:
+
+- Node.js and pnpm: Ensure that you have the correct versions of Node.js and pnpm installed. You can check the required versions in the project documentation. Update Node.js and pnpm to the required versions if necessary.
+- C++ libraries: If you encounter "The specified module could not be found" errors on Windows, the system may lack necessary C++ libraries. Download and install the required C++ libraries for the project. Visit the referenced link [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) for more information.
+- Linux dependencies: On Linux, make sure to install the required system dependencies for the build. Use the package manager relevant to your distribution to install the necessary packages.
+- Rust compilation: Ensure that your Rust installation is up to date and at the required version. Install or update Rust as needed to resolve compilation issues.
 
 1. Clone the repository
 
@@ -430,7 +461,12 @@ Rust >= 1.70.0
 3. Install dependencies(Only Linux)
 
     ```bash
-    sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
+    Linux
+- On Debian/Ubuntu, you can install the required system dependencies by running the following command:
+sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
+
+- On Arch/Manjaro, you can install the package using `pacman` or an AUR helper like `yay` or `paru`:
+sudo pacman -S pot-translation
     ```
 
 4. Development (Optional)
@@ -453,7 +489,7 @@ Rust >= 1.70.0
 -   [Bob](https://github.com/ripperhe/Bob) Inspiration
 -   [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI API Reference
 -   [@uiYzzi](https://github.com/uiYzzi) Implementation ideas
--   [@Lichenkass](https://github.com/Lichenkass) Maintaining the Deepin App Store.
--   [Tauri](https://github.com/tauri-apps/tauri) A user-friendly GUI framework.
+- Lichenkass ([GitHub](https://github.com/Lichenkass)) - Maintaining the Deepin App Store.
+- Tauri ([GitHub](https://github.com/tauri-apps/tauri)) - A user-friendly GUI framework.
 
 <div align="center">
