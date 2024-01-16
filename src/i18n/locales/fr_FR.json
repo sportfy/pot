@@ -3,8 +3,8 @@
         "services": {
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
-                    "key": "Clé",
+                    "appkey": "Clé API"
+                    "key": "Clé d'API"
                     "title": "Youdao"
                 },
                 "deepl": {
@@ -61,7 +61,7 @@
                     "contract": "Contrat",
                     "finance": "Finance et économie",
                     "wiki": "Humanités et sciences sociales",
-                    "it": "Informatique",
+                    "it": "TI"
                     "news": "Actualités et information",
                     "machinery": "Production de machines",
                     "title": "Champ Baidu",
