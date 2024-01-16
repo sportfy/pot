@@ -89,8 +89,8 @@
                 }
             },
             "translate": {
-                "label": "Übersetzungseinstellungen",
-                "title": "Übersetzungseinstellungen",
+                "label": "Über die App",
+                "title": "Über die App",
                 "source_language": "Quellsprache",
                 "target_language": "Zielsprache",
                 "second_language": "Zweite Zielsprache",
@@ -173,8 +173,8 @@
                 "title": "Verlauf"
             },
             "backup": {
-                "label": "Backup-Einstellungen",
-                "title": "Backup-Einstellungen",
+                "label": "Über die App",
+                "title": "Über die App",
                 "type": "Diensttyp",
                 "webdav": "WebDav",
                 "local": "Lokal",
