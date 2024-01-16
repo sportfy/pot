@@ -5,40 +5,30 @@
 > A cross-platform translator application ([Telegram Group](https://t.me/pot_app))
 
 ![License](https://img.shields.io/github/license/pot-app/pot-desktop.svg)
-![Tauri](https://img.shields.io/badge/Tauri-1.5.0-blue?logo=tauri)
+![Tauri](https://img.shields.io/badge/Tauri-2.0.0-blue?logo=tauri)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-orange?logo=rust&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows&logoColor=white)
-![MacOS](https://img.shields.io/badge/-macOS-black?&logo=apple&logoColor=white)
+![MacOS](https://img.shields.io/badge/-MacOS-black?&logo=apple&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-yellow?logo=linux&logoColor=white)
 
 <br/>
 <hr/>
 <div align="center">
 
-<h3><a href='./README.md'>中文</a> | English</h3>
-
-<table>
-<tr>
-    <td> <img src="asset/1.png">
-    <td> <img src="asset/2.png">
-    <td> <img src="asset/3.png">
-</table>
+<h3><a href='./README.md'>中文 | [EN](./README_EN.md) | English</a></h3>
 
 # Table of Contents
-
-</div>
-
 -   [Usage](#usage)
 -   [Features](#features)
 -   [Supported Services](#supported-services)
 -   [Plugin System](#plugin-system)
 -   [Installation](#installation)
 -   [External Calls](#external-calls)
--   [Wayland Support](#wayland-support)
--   [Internationalization](#internationalizationweblate)
--   [Contributors](#contributors)
--   [Thanks](#thanks)
+
+</div>
+
+
 
 <div align="center">
 
@@ -355,9 +345,7 @@ rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/
 
 Github: [ccslykx/Starry](https://github.com/ccslykx/Starry)
 
-<div align="center">
 
-# Wayland Support
 
 </div>
 
@@ -419,7 +407,7 @@ Node.js >= 18.0.0
 
 pnpm >= 8.5.0
 
-### Manual Compilation
+
 
 Developers can install dependencies and compile the application by following the steps outlined below:
 
@@ -482,7 +470,9 @@ sudo pacman -S pot-translation
 
 <div align="center">
 
-# Acknowledgement
+# 
+
+> Note: When reporting issues, please provide error logs if available.
 
 </div>
 
