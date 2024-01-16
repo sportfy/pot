@@ -164,15 +164,45 @@ The [Template](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_E
 
 </div>
 
+## Installation
+
+-   **Windows**:
+    -   For 64-bit machine, download `pot_{version}_x64.exe`
+    -   For 32-bit machine, download `pot_{version}_x86.exe`
+    -   For arm64 machine, download `pot_{version}_arm64.exe`
+    -   Double click the downloaded file to install it.
+-   **macOS**:
+    -   For M1, download `pot_{version}_aarch64.dmg`
+    -   For x64, download `pot_{version}_x64.dmg`
+    -   Double click the downloaded file to install it.
+
 ## Windows
 
-### Install via Winget
+### Install via Chocolatey
 
 ```powershell
-winget install Pylogmon.pot
+choco install pot-translation --params='/DesktopIcon' -y
 ```
 
-### Install Manually
+### Install via Scoop
+
+```powershell
+scoop bucket add extras
+scoop install pot
+```
+
+## MacOS
+
+## Installation
+
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
+2. Double click the downloaded file to install it.
+
+```bash
+brew install --cask pot
+```
 
 1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
    - For 64-bit machine, download `pot_{version}_x64-setup.exe`
@@ -193,7 +223,16 @@ winget install Pylogmon.pot
 
 ## MacOS
 
-### Install via Brew
+## MacOS
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
+2. Double click the downloaded file to install it.
+
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
+2. Double click the downloaded file to install it.
 
 1. Add our tap:
 
