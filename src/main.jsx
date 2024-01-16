@@ -1,4 +1,8 @@
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
+import { useEffect } from 'react';
+import * as store from './utils/store';
+import { initEnv } from './utils/env';
+import App from './App';
 import { appWindow } from '@tauri-apps/api/window';
 import { NextUIProvider } from '@nextui-org/react';
 import ReactDOM from 'react-dom/client';
