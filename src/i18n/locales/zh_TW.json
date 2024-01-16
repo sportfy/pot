@@ -70,10 +70,10 @@
                     "ocr_translate": "截圖翻譯"
                 },
 
-                "font_size": {}
+                "font_size": "字體大小"
             },
             "translate": {
-                "label": "翻譯設定",
+                "label": "翻譯設置",
                 "title": "翻譯設定",
                 "source_language": "原始語言",
                 "target_language": "目標語言",
@@ -135,8 +135,8 @@
                 "least": "請至少保留一個",
                 "add_builtin_service": "新增內建服務",
                 "add_external_service": "新增擴充套件",
-                "add_service": "新增服務",
-                "test_failed": "測試失敗",
+                "add_service": "添加服務",
+                "test_failed": "測試未通過",
                 "install_plugin": "安裝外掛程式",
                 "uninstall_success": "外掛程式移除成功",
                 "homepage": "外掛程式主頁",
@@ -163,7 +163,7 @@
                 "empty": "您還沒有備份"
             },
             "about": {
-                "label": "關於應用",
+                "label": "應用資訊",
                 "title": "關於應用",
                 "website": "官網",
                 "github": "GitHub",
