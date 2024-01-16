@@ -134,6 +134,98 @@
                 "geminipro_polish": {
                     "title": "Gemini Pro Polish"
                 },
+                "fr_FR": {
+                    "services": {
+                        "recognize": {
+                            "iflytek_latex_ocr": {
+                                "apikey": "Cl\u00e9 d'API",
+                                "title": "LaTeX iFlyTek",
+                                "apisecret": "Cl\u00e9 secr\u00e8te de l'API",
+                                "appid": "ID de l'application"
+                            },
+                            "baidu_ocr": {
+                                "client_id": "Cl\u00e9 d'API",
+                                "title": "Reconnaissance d'image de Baidu",
+                                "client_secret": "Cl\u00e9 secr\u00e8te"
+                            },
+                            "simple_latex_ocr": {
+                                "title": "LaTeX simple",
+                                "token": "Jeton"
+                            },
+                            "volcengine_ocr": {
+                                "secret": "Cl\u00e9 secr\u00e8te",
+                                "appid": "ID de l'application",
+                                "title": "Reconnaissance d'image de VolcEngine"
+                            },
+                            "iflytek_intsig_ocr": {
+                                "appid": "ID de l'application",
+                                "title": "Reconnaissance d'image de iFlyTek (Intsig)",
+                                "apisecret": "Cl\u00e9 secr\u00e8te de l'API",
+                                "apikey": "Cl\u00e9 d'API"
+                            },
+                            "baidu_accurate_ocr": {
+                                "client_secret": "Cl\u00e9 secr\u00e8te",
+                                "client_id": "Cl\u00e9 d'API",
+                                "title": "Reconnaissance d'image de Baidu (pr\u00e9cise)"
+                            },
+                            "baidu_img_ocr": {
+                                "secret": "Cl\u00e9 secr\u00e8te",
+                                "appid": "ID d'application",
+                                "title": "Traduction d'image de Baidu"
+                            },
+                            "volcengine_multi_lang_ocr": {
+                                "title": "Reconnaissance d'image de VolcEngine (Multilingue)",,
+                "fr_FR": {
+                    "services": {
+                        "recognize": {
+                            "iflytek_latex_ocr": {
+                                "apikey": "Cl\u00e9 d'API",
+                                "title": "LaTeX iFlyTek",
+                                "apisecret": "Cl\u00e9 secr\u00e8te de l'API",
+                                "appid": "ID de l'application"
+                            },
+                            "baidu_ocr": {
+                                "client_id": "Cl\u00e9 d'API",
+                                "title": "Reconnaissance d'image de Baidu",
+                                "client_secret": "Cl\u00e9 secr\u00e8te"
+                            },
+                            "simple_latex_ocr": {
+                                "title": "LaTeX simple",
+                                "token": "Jeton"
+                            },
+                            "volcengine_ocr": {
+                                "secret": "Cl\u00e9 secr\u00e8te",
+                                "appid": "ID de l'application",
+                                "title": "Reconnaissance d'image de VolcEngine"
+                            },
+                            "iflytek_intsig_ocr": {
+                                "appid": "ID de l'application",
+                                "title": "Reconnaissance d'image de iFlyTek (Intsig)",
+                                "apisecret": "Cl\u00e9 secr\u00e8te de l'API",
+                                "apikey": "Cl\u00e9 d'API"
+                            },
+                            "baidu_accurate_ocr": {
+                                "client_secret": "Cl\u00e9 secr\u00e8te",
+                                "client_id": "Cl\u00e9 d'API",
+                                "title": "Reconnaissance d'image de Baidu (pr\u00e9cise)"
+                            },
+                            "baidu_img_ocr": {
+                                "secret": "Cl\u00e9 secr\u00e8te",
+                                "appid": "ID d'application",
+                                "title": "Traduction d'image de Baidu"
+                            },
+                            "volcengine_multi_lang_ocr": {
+                                "title": "Reconnaissance d'image de VolcEngine (Multilingue)",
+                                "secret": "Cl\u00e9 secr\u00e8te",
+                                "appid": "ID de l'application"
+                            },
+                            "tencent_ocr": {
+                                "secret_key": "Cl\u00e9 secr\u00e8te",
+                                "secret_id": "ID de cl\u00e9 secr\u00e8te",
+                                "title": "Reconnaissance d'image de Tencent"
+                            },
+                            "tencent_accurate_ocr": {
+                                "title": "Reconna,
                 "geminipro_custom": {
                     "title": "Gemini Pro personnalisé"
                 }
@@ -224,6 +316,48 @@
             },
             "help": "Guide de configuration",
             "no_need": "Aucune configuration requise",
+            "tts": {
+                "lingva_tts": {
+                    "title": "Lingva",
+                    "request_path": "Chemin de la requête"
+                }
+            },
+            "languages": {
+                "mn_cy": "Mongolien (Cyrillique)",
+                "ar": "Arabe",
+                "it": "Italien",
+                "vi": "Vietnamien",
+                "zh_cn": "Chinois simplifié",
+                "id": "Indonésien",
+                "fr_FR": {
+                    "languages": {
+                        "zh_tw": "Chinois traditionnel",
+                        "km": "Khmer",
+                        "ru": "Russe",
+                        "mn_mo": "Mongolien",
+                        "en": "Anglais",
+                        "th": "Thaï",
+                        "ja": "Japonais",
+                        "ms": "Malaisien",
+                        "fr": "Français",
+                        "de": "Allemand",
+                        "es": "Espagnol",
+                        "pt_pt": "Portugais",
+                        "ko": "Coréen",
+                        "tr": "Turc",
+                        "auto": "Détection automatique",
+                        "pt_br": "Portugais (Brésil)",
+                        "hi": "Hindi",
+                        "nl": "Néerlandais",
+                        "sv": "Suédois",
+                        "nb_no": "Norvégien Bokmål",
+                        "fa": "Persan",
+                        "pl": "Polonais",
+                        "nn_no": "Norvégien Nynorsk"
+                    }
+                }
+            }
+        }
             "tts": {
                 "lingva_tts": {
                     "title": "Lingva",
