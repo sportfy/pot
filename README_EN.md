@@ -77,6 +77,8 @@
 # Supported Services
 
 </div>
+<section id="A">
+<img width="200px" src="public/icon.svg" align="center"/>
 
 ## Translation
 
@@ -137,6 +139,8 @@ More Services see [Plugin System](#plugin-system)
 
 More Services see [Plugin System](#plugin-system)
 
+More Services see [Plugin System](#plugin-system)
+
 <div align="center">
 
 # Plugin System
@@ -153,7 +157,55 @@ The file extension of pot plugin is `.potext`. After downloading the `.potext` f
 
 ### Troubleshooting
 
--   The specified module could not be found (Windows)
+-   If you encounter an error message stating that "pot" can't be opened because the developer cannot be verified, follow these steps to allow the application to open:
+
+    1. Click the **Cancel** button on the error message.
+    2. Go to **System Preferences** -> **Security & Privacy**.
+    3. In the **General** tab, you should see a message saying that "pot" was blocked from opening. Click the **Open Anyway** button next to it.
+    4. You may be prompted to enter your password to authorize the change.
+    5. After allowing the application to open, you should no longer see the error message.
+
+    If you are unable to find the **Open Anyway** button or encounter any other issues, please try the following steps:
+
+    1. Open **Terminal.app**.
+    2. Enter the following command and press **Enter** (you may need to enter your password halfway through):
+
+        ```bash
+        sudo xattr -d com.apple.quarantine /Applications/pot.app
+        ```
+
+    3. Restart the "pot" application.
+
+    These steps should resolve the issue and allow you to open the "pot" application without any further warnings.
+
+-   If you encounter an error message stating that "pot" can't be opened because the developer cannot be verified, follow these steps to allow the application to open:
+
+    1. Click the **Cancel** button on the error message.
+    2. Go to **System Preferences** -> **Security & Privacy**.
+    3. In the **General** tab, you should see a message saying that "pot" was blocked from opening. Click the **Open Anyway** button next to it.
+    4. You may be prompted to enter your password to authorize the change.
+    5. After allowing the application to open, you should no longer see the error message.
+
+    If you are unable to find the **Open Anyway** button or encounter any other issues, please try the following steps:
+
+    1. Open **Terminal.app**.
+    2. Enter the following command and press **Enter** (you may need to enter your password halfway through):
+
+        ```bash
+        sudo xattr -d com.apple.quarantine /Applications/pot.app
+        ```
+
+    3. Restart the "pot" application.
+
+    These steps should resolve the issue and allow you to open the "pot" application without any further warnings.
+
+-   If you encounter an error message stating that "pot" can't be opened because the developer cannot be verified, follow these steps to allow the application to open:
+
+    1. Click the **Cancel** button on the error message.
+    2. Go to **System Preferences** -> **Security & Privacy**.
+    3. In the **General** tab, you should see a message saying that "pot" was blocked from opening. Click the **Open Anyway** button next to it.
+    4. You may be prompted to enter your password to authorize the change.
+    5. After allowing the application to open, you should no longer see the error message.
 
     Errors like this occur because the system lacks C++ libraries，Go to [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) download and install it.
 
@@ -228,6 +280,27 @@ brew upgrade --cask pot
 
 ### Troubleshooting
 
+-   If you encounter an error message stating that "pot" can't be opened because the developer cannot be verified, follow these steps to allow the application to open:
+
+    1. Click the **Cancel** button on the error message.
+    2. Go to **System Preferences** -> **Security & Privacy**.
+    3. In the **General** tab, you should see a message saying that "pot" was blocked from opening. Click the **Open Anyway** button next to it.
+    4. You may be prompted to enter your password to authorize the change.
+    5. After allowing the application to open, you should no longer see the error message.
+
+    If you are unable to find the **Open Anyway** button or encounter any other issues, please try the following steps:
+
+    1. Open **Terminal.app**.
+    2. Enter the following command and press **Enter** (you may need to enter your password halfway through):
+
+        ```bash
+        sudo xattr -d com.apple.quarantine /Applications/pot.app
+        ```
+
+    3. Restart the "pot" application.
+
+    These steps should resolve the issue and allow you to open the "pot" application without any further warnings.
+
 -   "pot" can’t be opened because the developer cannot be verified.
 
     Click the Cancel button, then go to the Settings -> Privacy and Security page, click the Still Open button, and then click the Open button in the pop-up window. After that, there will be no more pop-up warnings when opening pot.
@@ -237,6 +310,14 @@ brew upgrade --cask pot
     ```bash
     sudo xattr -d com.apple.quarantine /Applications/pot.app
     ```
+
+-   If you encounter an error message stating that "pot" can't be opened because the developer cannot be verified, follow these steps to allow the application to open:
+
+    1. Click the **Cancel** button on the error message.
+    2. Go to **System Preferences** -> **Security & Privacy**.
+    3. In the **General** tab, you should see a message saying that "pot" was blocked from opening. Click the **Open Anyway** button next to it.
+    4. You may be prompted to enter your password to authorize the change.
+    5. After allowing the application to open, you should no longer see the error message.
 
 -   If you encounter a permission prompt every time you open it, or if you cannot perform a shortcut translation, please go to Settings -> Privacy & Security -> Supporting Features to remove pot, and then re-add pot.
 
@@ -454,6 +535,6 @@ Rust >= 1.70.0
 -   [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI API Reference
 -   [@uiYzzi](https://github.com/uiYzzi) Implementation ideas
 -   [@Lichenkass](https://github.com/Lichenkass) Maintaining the Deepin App Store.
--   [Tauri](https://github.com/tauri-apps/tauri) A user-friendly GUI framework.
+-   [Tauri](https://tauri.studio/) A user-friendly GUI framework.
 
 <div align="center">
