@@ -466,7 +466,7 @@
             "delete_newline": "Supprimer le retour à la ligne",
             "recognize": "Reconnaissance",
             "copy_text": "Copier",
-            "copy_img": "Copier l'image",
+            "test_failed": "Le test a \/C3\/A9chou\/C3\/A9",
             "delete_space": "Supprimer l'espace"
         }
     }
