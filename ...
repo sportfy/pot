@@ -1,0 +1,19 @@
+{
+  ...
+  "about": {
+    "title": "À propos de l'application",
+    "qq_group": "Groupe QQ",
+    "website": "Site Web",
+    "check_update": "Vérifier les mises à jour",
+    "telegram": "Telegram",
+    "feedback": "Commentaires",
+    "label": "À propos",
+    "view_config": "Voir la configuration",
+    "issue": "Bug",
+    "community": "Communauté",
+    "email": "E-mail",
+    "github": "GitHub",
+    "discussion": "Discussion GitHub"
+  },
+  ...
+}
