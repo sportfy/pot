@@ -244,6 +244,21 @@
             "en": "Inglês",
             "th": "Tailandês",
             "ja": "Japonês",
+                },
+                "qrcode": {
+                    "title": "Código QR"
+                },
+                "tesseract": {
+                    "title": "Tesseract.js"
+                },
+                "tencent_img_ocr": {
+                    "secret_id": "ID Secreto",
+                    "title": "Tradução de Imagem da Tencent",
+                    "secret_key": "Chave Secreta"
+                },
+                "system": {
+                    "title": "OCR do Sistema"
+                }
             "ms": "Malaio",
             "fr": "Francês",
             "de": "Alemão",
