@@ -1,7 +1,7 @@
 {
     "translation": {
         "common": {
-            "ok": "Ok"
+            "ok": "Tamam"
         },
         "services": {
             "translate": {
@@ -17,7 +17,7 @@
                 "cambridge_dict": {},
                 "geminipro": {},
                 "openai_custom": {},
-                "baidu": {},
+                "baidu": "Baidu",
                 "niutrans": {},
                 "tencent": {},
                 "geminipro_custom": {},
@@ -30,7 +30,7 @@
                 "chatglm_summary": {},
                 "openai_polish": {},
                 "geminipro_summary": {},
-                "bing": {},
+                "bing": "Bing",
                 "openai_summary": {}
             },
             "recognize": {
@@ -48,7 +48,7 @@
                 "qrcode": {},
                 "tesseract": {},
                 "tencent_img_ocr": {},
-                "system": {}
+                "system": "Sistem"
             },
             "collection": {
                 "anki": {},
@@ -58,6 +58,7 @@
             "tts": {
                 "lingva_tts": {}
             }
+            "tr_TR": "Türkçe"
         },
         "languages": {},
         "config": {
@@ -77,7 +78,7 @@
             "recognize": {},
             "hotkey": {},
             "service": {},
-            "about": {},
+            "about": "Hakkında",
             "history": {}
         },
         "translate": {},
