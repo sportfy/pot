@@ -1,0 +1,23 @@
+name: GitHub Actions Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  OS: ubuntu-latest
+
+jobs:
+  build:
+    runs-on: ${{ env.OS }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
