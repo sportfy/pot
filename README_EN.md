@@ -42,7 +42,7 @@
 
 <div align="center">
 
-# Usage
+# How to Use
 
 </div>
 
@@ -208,7 +208,8 @@ winget install Pylogmon.pot
 1. Add our tap:
 
 ```bash
-brew tap pot-app/homebrew-tap
+## MacOS
+- Add the pot tap:
 ```
 
 2. Install pot:
@@ -225,9 +226,11 @@ brew upgrade --cask pot
 
 ### Install Manually
 
-1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
-   - For M1, download `pot_{version}_aarch64.dmg`
-   - For x64, download `pot_{version}_x64.dmg`
+1. Download the installation package from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page, and follow the appropriate installation method for your machine:
+
+## MacOS
+- For M1, download `pot_{version}_aarch64.dmg`
+- For x64, download `pot_{version}_x64.dmg`
 2. Double click the downloaded file to install it.
 
 ## Common Compilation Issues and Solutions
@@ -406,6 +409,8 @@ windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screensho
 
 <img src="https://github.com/pot-app/.github/blob/master/pot-desktop-contributions.svg?raw=true" width="100%"/>
 
+This section has been updated to provide clear instructions for installation and compilation.
+
 ## Manual compilation
 
 ### Requirements
@@ -414,7 +419,22 @@ Node.js >= 18.0.0
 
 pnpm >= 8.5.0
 
-Rust >= 1.70.0
+### Manual Compilation
+
+Developers can install dependencies and compile the application by following the steps outlined below:
+
+1. Ensure that you have the correct versions of Node.js and pnpm installed. You can check the required versions in the project documentation. Update Node.js and pnpm to the required versions if necessary.
+
+2. If you encounter 'The specified module could not be found' errors on Windows, the system may lack necessary C++ libraries. Download and install the required C++ libraries for the project. Visit the referenced link [here](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) for more information.
+
+3. On Linux, make sure to install the required system dependencies for the build. Use the package manager relevant to your distribution to install the necessary packages.
+
+4. Ensure that your Rust installation is up to date and at the required version. Install or update Rust as needed to resolve compilation issues.
+
+   ```bash
+   git clone https://github.com/pot-app/pot-desktop.git
+   pnpm tauri dev # Run the app in development mode
+   ```
 
 ## Common Compilation Issues and Solutions
 
@@ -441,7 +461,12 @@ If you encounter errors during compilation, consider the following solutions:
 3. Install dependencies(Only Linux)
 
     ```bash
-    sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
+    Linux
+- On Debian/Ubuntu, you can install the required system dependencies by running the following command:
+sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
+
+- On Arch/Manjaro, you can install the package using `pacman` or an AUR helper like `yay` or `paru`:
+sudo pacman -S pot-translation
     ```
 
 4. Development (Optional)
@@ -464,7 +489,7 @@ If you encounter errors during compilation, consider the following solutions:
 -   [Bob](https://github.com/ripperhe/Bob) Inspiration
 -   [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI API Reference
 -   [@uiYzzi](https://github.com/uiYzzi) Implementation ideas
--   [@Lichenkass](https://github.com/Lichenkass) Maintaining the Deepin App Store.
--   [Tauri](https://github.com/tauri-apps/tauri) A user-friendly GUI framework.
+- Lichenkass ([GitHub](https://github.com/Lichenkass)) - Maintaining the Deepin App Store.
+- Tauri ([GitHub](https://github.com/tauri-apps/tauri)) - A user-friendly GUI framework.
 
 <div align="center">
