@@ -175,8 +175,8 @@ The [Template](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_E
 
 ### Install via Winget
 
-```powershell
-winget install Pylogmon.pot
+```bash
+sudo xattr -d com.apple.quarantine /Applications/pot.app
 ```
 
 ### Install Manually
