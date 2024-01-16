@@ -85,7 +85,10 @@ jobs:
                   button_name: 👀前往查看👀
                   button_url: ${{ github.event.discussion.html_url }}
             # pull_request
-            - uses: colutius/Telegram-Msg@main
+            - name: Configure Environment Variables
+      run: |
+        export TEST_FLAG=true
+      if: github.event_name == 'pull_request_target'
               if: github.event_name == 'pull_request_target'
               with:
                   token: ${{ secrets.TELEGRAM_TOKEN }}

@@ -210,6 +210,8 @@
             },
             "collection": {
                 "anki": {
+                "port": "Porta",
+                "title": "Anki (Portugal)"
                     "port": "Porta",
                     "title": "Anki"
                 },
