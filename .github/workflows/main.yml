@@ -1,0 +1,24 @@
+name: Continuous Integration Workflow
+
+on:
+  pull_request:
+    branches:
+      - main, develop
+
+env:
+  CI_OS: ubuntu-latest
+
+jobs:
+  test_build:
+  test_build:
+    runs-on: ${{ env.CI_OS }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
