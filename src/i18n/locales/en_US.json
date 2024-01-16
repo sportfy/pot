@@ -10,14 +10,16 @@
             "clear": "Clear"
         },
         "languages": {
+        "auto": "Auto Detect",
+        "en_US": "English", "en_US": "English", "zh_tw": "Traditional Chinese"
             "auto": "Auto Detect",
             "zh_cn": "Simplified Chinese",
-            "zh_tw": "Traditional Chinese",
+            "en_US": "English", "zh_tw": "Traditional Chinese"
             "ja": "Japanese",
             "en": "English",
             "ko": "Korean",
             "fr": "French",
-            "es": "Spanish",
+            "es": "Espanol",
             "ru": "Russian",
             "de": "German",
             "it": "Italian",
@@ -43,11 +45,11 @@
         "config": {
             "general": {
                 "label": "General",
-                "title": "General Settings",
+                "title": "General Settings"
                 "auto_start": "Auto Startup",
                 "check_update": "Check Update",
                 "server_port": "Listen Port",
-                "server_port_change": "The listening port has been changed, Please restart the application for the changes to take effect",
+                "server_port_change": "The listening port has been changed. Please restart the application for the changes to take effect",
                 "app_language": "Application Language",
                 "app_theme": "Theme",
                 "app_font": "Font",
@@ -166,7 +168,7 @@
                 "install_plugin": "Install Plugin",
                 "view_plugin_list": "View Plugin List",
                 "uninstall_success": "Plugin Uninstall Successfully",
-                "homepage": "Homepage"
+                "homepage": "Homepage","title": "Homepage"
             },
             "history": {
                 "label": "History",
@@ -207,7 +209,7 @@
                 "qq_channel": "QQ Channel",
                 "qq_group": "QQ Group",
                 "telegram": "Telegram",
-                "discussion": "Github Discussion"
+                "discussion": "GitHub Discussions"
             }
         },
         "updater": {
@@ -435,7 +437,7 @@
             },
             "tts": {
                 "lingva_tts": {
-                    "title": "Lingva",
+                    "title": "Lingva TTS", "request_path": "Request Path"
                     "request_path": "Request Path"
                 }
             },
@@ -452,7 +454,7 @@
             }
         },
         "translate": {
-            "translate": "Translate",
+            "translate": "翻译", "add_collection_success": "成功添加到收藏夹", "recognizing": "识别中…", "speak": "朗读", "copy": "复制", "retry": "重试", "delete_newline": "删除换行", "translate_back": "翻译回原文"
             "add_collection_success": "Add to collection successfully",
             "recognizing": "Recognizing…",
             "speak": "Speak",
@@ -464,7 +466,7 @@
         "recognize": {
             "recognize": "Recognize",
             "translate": "Translate",
-            "copy_img": "Copy Image",
+            "copy_img": "Copy Image", "copy_text": "Copy"
             "copy_text": "Copy",
             "delete_newline": "Delete Newline",
             "delete_space": "Delete Space"
