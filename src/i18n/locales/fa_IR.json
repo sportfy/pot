@@ -180,7 +180,7 @@
             },
 
             "tts": {
-                "lingva_tts": {}
+                "lingva_tts": "متن به گفتار Lingva"
             }
         },
         "updater": {}
