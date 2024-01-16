@@ -181,7 +181,10 @@ winget install Pylogmon.pot
 
 ### Install Manually
 
-1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page.
+1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
+   - For 64-bit machine, download `pot_{version}_x64-setup.exe`
+   - For 32-bit machine, download `pot_{version}_x86-setup.exe`
+   - For arm64 machine, download `pot_{version}_arm64-setup.exe`
 
     - 64-bit machine download `pot_{version}_x64-setup.exe`
     - 32-bit machine download `pot_{version}_x86-setup.exe`
@@ -193,11 +196,9 @@ winget install Pylogmon.pot
 
 -   There is no interface after startup, and there is no response when clicking the tray icon.
 
-    Check if WebView2 is uninstalled/disabled, if so, install WebView2 manually or restore it.
-
-    If the enterprise edition system is inconvenient to install or cannot install WebView2, please try to download the fix WebView2 version `pot_{version} at [Release](https://github.com/pot-app/pot-desktop/releases/latest) _{arch}_fix_webview2_runtime-setup.exe`
-
-    If the issue persists, please try starting in Windows 7 compatibility mode.
+    1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
 
 ## MacOS
 
@@ -223,7 +224,9 @@ brew upgrade --cask pot
 
 ### Install Manually
 
-1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page:
+   - For M1, download `pot_{version}_aarch64.dmg`
+   - For x64, download `pot_{version}_x64.dmg`
 2. Double click the downloaded file to install it.
 
 ### Troubleshooting
