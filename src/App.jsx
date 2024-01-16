@@ -2,6 +2,8 @@ import { appWindow } from '@tauri-apps/api/window';
 import { BrowserRouter } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { warn } from 'tauri-plugin-log-api';
+import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import React, { useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
@@ -30,6 +32,7 @@ export default function App() {
     const [appFallbackFont] = useConfig('app_fallback_font', 'default');
     const [appFontSize] = useConfig('app_font_size', 16);
     const { setTheme } = useTheme();
+  const { i18n } = useTranslation();
     const { i18n } = useTranslation();
 
     useEffect(() => {
@@ -67,7 +70,7 @@ export default function App() {
         if (appFontSize !== null) {
             document.documentElement.style.fontSize = `${appFontSize}px`;
         }
-    }, [appTheme, appLanguage, appFont, appFallbackFont, appFontSize]);
+    }, [appTheme, appLanguage, appFont, appFallbackFont, appFontSize, i18n]);
 
     return <BrowserRouter>{windowMap[appWindow.label]}</BrowserRouter>;
 }

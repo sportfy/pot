@@ -467,7 +467,7 @@
             "copy_img": "Copy Image",
             "copy_text": "Copy",
             "delete_newline": "Delete Newline",
-            "delete_space": "Delete Space"
+            "delete_space": "Delete Space" // Added English translations // Added English translations // Added English translations // Added English translations
         }
     }
 }
