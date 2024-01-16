@@ -13,8 +13,8 @@
                     "type": "Type de service",
                     "title": "DeepL",
                     "api": "Clé d'authentification",
-                    "auth_key": "Clé d'authentification",
-                    "custom_url": "URL DeepLX"
+                    "cle_authentification": "Clé d'authentification",
+                    "URL_personnalisee": "URL DeepLX"
                 },
                 "openai": {
                     "openai": "OpenAI",
@@ -29,8 +29,8 @@
                     "api_key": "Clé d'API"
                 },
                 "alibaba": {
-                    "accesskey_id": "ID AccessKey",
-                    "accesskey_secret": "Clé secrète AccessKey",
+                    "ID_AccessKey": "ID AccessKey",
+                    "cle_secrete_AccessKey": "Clé secrète AccessKey",
                     "title": "Alibaba"
                 },
                 "chatglm": {
@@ -45,9 +45,9 @@
                     "chatglm_turbo": "ChatGLM Turbo"
                 },
                 "transmart": {
-                    "username": "Nom d'utilisateur",
-                    "title": "TranSmart",
-                    "token": "Jeton"
+                    "Nom_utilisateur": "Nom d'utilisateur",
+                    "TranSmart": "TranSmart",
+                    "Jeton": "Jeton"
                 },
                 "caiyun": {
                     "token": "Jeton",
@@ -58,7 +58,7 @@
                     "law": "Lois et régulation",
                     "aerospace": "Aérospatial",
                     "senimed": "Biomédecine",
-                    "contract": "Contrat",
+                    "Contrat": "Contrat",
                     "finance": "Finance et économie",
                     "wiki": "Humanités et sciences sociales",
                     "it": "Informatique",
@@ -81,16 +81,16 @@
                 "niutrans": {
                     "https": "Utiliser HTTPS",
                     "title": "NiuTrans",
-                    "apikey": "Clé d'API"
+                    "cle_API": "Clé d'API"
                 },
-                "tencent": {
-                    "secret_key": "Clé secrète",
+                "Tencent": {
+                    "cle_secrete": "Clé secrète",
                     "title": "Tencent",
                     "secret_id": "ID de clé secrète"
                 },
                 "volcengine": {
                     "title": "VolcEngine",
-                    "appid": "ID de l'application",
+                    "ID_application": "ID de l'application",
                     "secret": "Clé secrète"
                 },
                 "google": {
@@ -104,7 +104,7 @@
                     "title": "Dictionnaire Bing"
                 },
                 "chatglm_custom": {
-                    "title": "ChatGLM personnalisé"
+                    "Bing": "ChatGLM personnalisé"
                 },
                 "chatglm_summary": {
                     "title": "Résumé de ChatGLM"
@@ -346,7 +346,7 @@
                 "source_language": "Langue d'origine",
                 "pre_state": "Mémoriser la position",
                 "always_on_top": "Toujours au premier plan par défaut",
-                "close_on_blur": "Fermer si plus au premier plan",
+                "close_on_blur": "Close on Blur",
                 "hide_source": "Masquer la zone de la langue d'origine",
                 "baidu": "Baidu",
                 "incremental_translate": "Traduction incrémentale",
