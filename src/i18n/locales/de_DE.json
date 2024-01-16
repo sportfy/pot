@@ -11,17 +11,17 @@
         },
         "languages": {
             "auto": "Automatisch erkennen",
-            "zh_cn": "Chinesisch (vereinfacht)",
-            "zh_tw": "Chinesisch (traditionell)",
+            "zh_cn": "Chinesisch (Vereinfacht)"
+            "zh_tw": "Chinesisch (Traditionell)"
             "ja": "Japanisch",
             "en": "Englisch",
-            "ko": "Koreanisch",
-            "fr": "Französisch",
-            "es": "Spanisch",
-            "ru": "Russisch",
-            "de": "Deutsch",
-            "it": "Italienisch",
-            "tr": "Türkisch",
+            "ko": "Koreanisch"
+            "fr": "Französisch"
+            "es": "Spanisch"
+            "ru": "Russisch"
+            "de": "Deutsch"
+            "it": "Italienisch"
+            "tr": "Türkisch"
             "pt_pt": "Portugiesisch",
             "pt_br": "Portugiesisch (Brasilien)",
             "vi": "Vietnamesisch",
@@ -48,7 +48,7 @@
                 "check_update": "Beim Start Updates überprüfen",
                 "server_port": "Überwachungsport",
                 "server_port_change": "Überwachungsport wurde geändert, für Änderungen neu starten",
-                "app_language": "App Sprache",
+                "app_language": "App-Sprache"
                 "app_theme": "App Thema",
                 "app_font": "Schriftart",
                 "app_fallback_font": "Fallback-Schriftart",
