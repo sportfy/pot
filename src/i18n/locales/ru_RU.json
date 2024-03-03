@@ -100,6 +100,7 @@
                 "target": "Перевод",
                 "source_target": "Исходный+Перевод",
                 "disable": "Отключить",
+                "history_disable": "Отключить историю",
                 "incremental_translate": "Инкрементный перевод",
                 "dynamic_translate": "Динамический перевод",
                 "delete_newline": "Удаление новой строки",

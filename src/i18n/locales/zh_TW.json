@@ -81,6 +81,7 @@
                 "target": "譯文",
                 "source_target": "原文+譯文",
                 "disable": "禁用",
+                "history_disable": "禁用歷史記錄",
                 "incremental_translate": "增量翻譯",
                 "dynamic_translate": "動態翻譯",
                 "delete_newline": "自動刪除換行",
