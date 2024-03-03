@@ -51,6 +51,7 @@ export default function TargetArea(props) {
     const [autoCopy] = useConfig('translate_auto_copy', 'disable');
     const [clipboardMonitor] = useConfig('clipboard_monitor', false);
     const [hideWindow] = useConfig('translate_hide_window', false);
+    const [historyDisable] = useConfig('history_disable', false);
     const { name, index, translateServiceList, pluginList, ...drag } = props;
     const [translateServiceName, setTranslateServiceName] = useState(name);
     const [result, setResult] = useState('');
@@ -156,13 +157,15 @@ export default function TargetArea(props) {
                         if (v !== '') {
                             setHide(false);
                         }
-                        addToHistory(
-                            sourceText.trim(),
-                            detectLanguage,
-                            newTargetLanguage,
-                            translateServiceName,
-                            typeof v === 'string' ? v.trim() : v
-                        );
+                        if (!historyDisable) {
+                            addToHistory(
+                                sourceText.trim(),
+                                detectLanguage,
+                                newTargetLanguage,
+                                translateServiceName,
+                                typeof v === 'string' ? v.trim() : v
+                            );
+                        }
                         if (index === 0 && !clipboardMonitor) {
                             switch (autoCopy) {
                                 case 'target':
@@ -224,13 +227,15 @@ export default function TargetArea(props) {
                             if (v !== '') {
                                 setHideOnce(false);
                             }
-                            addToHistory(
-                                sourceText.trim(),
-                                detectLanguage,
-                                newTargetLanguage,
-                                translateServiceName,
-                                typeof v === 'string' ? v.trim() : v
-                            );
+                            if (!historyDisable) {
+                                addToHistory(
+                                    sourceText.trim(),
+                                    detectLanguage,
+                                    newTargetLanguage,
+                                    translateServiceName,
+                                    typeof v === 'string' ? v.trim() : v
+                                );
+                            }
                             if (index === 0 && !clipboardMonitor) {
                                 switch (autoCopy) {
                                     case 'target':

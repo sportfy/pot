@@ -99,6 +99,7 @@
                 "target": "Übersetzung",
                 "source_target": "Quelltext + Übersetzung",
                 "disable": "Deaktivieren",
+                "history_disable": "Verlauf deaktivieren",
                 "incremental_translate": "Inkrementelle Übersetzung",
                 "dynamic_translate": "Dynamische Übersetzung",
                 "delete_newline": "Automatisches Löschen von Zeilenumbrüchen",
