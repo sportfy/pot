@@ -100,6 +100,7 @@
                 "target": "Destino",
                 "source_target": "Origem+Destino",
                 "disable": "Desabilitar",
+                "history_disable": "Desabilitar Histórico",
                 "incremental_translate": "Tradução Incremental",
                 "dynamic_translate": "Tradução Dinâmica",
                 "delete_newline": "Excluir Nova Linha",
@@ -282,8 +283,8 @@
                 },
                 "alibaba": {
                     "title": "Alibaba",
-                    "accesskey_id": "AccessKey ID",
-                    "accesskey_secret": "AccessKey Secret"
+                    "accesskey_id": "ID da Chave de Acesso",
+                    "accesskey_secret": "Segredo da Chave de Acesso"
                 },
                 "tencent": {
                     "title": "Tencent",

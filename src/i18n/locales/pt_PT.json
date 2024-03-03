@@ -328,6 +328,7 @@
                 "yandex": "Yandex",
                 "local": "Local",
                 "disable": "Desativar",
+                "history_disable": "Desativar Histórico",
                 "hide_window": "Ocultar Janela de Tradução",
                 "remember_window_size": "Lembrar do Tamanho da Janela",
                 "delete_newline": "Apagar Nova Linha",
