@@ -180,7 +180,7 @@ The [Template](https://pot-app.com/en/plugin.html#template) section in the [Plug
 ```powershell
 winget install Pylogmon.pot
 ```
-
+If you encounter any issues, please provide the error logs by referring to the [github_actions_error_logs.txt](github_actions_error_logs.txt) file.
 ### Install Manually
 
 1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page.
@@ -270,7 +270,9 @@ paru -S pot-translation # or pot-translation-bin or pot-translation-git
 
 ```bash
 sudo pacman -S pot-translation
-```
+## The built-in services are limited. But you can expand the app's functionality through the plugin system. 
+
+**Note:** If you encounter any issues, please provide the error logs by referring to the [github_actions_error_logs.txt](github_actions_error_logs.txt) file.```
 
 ### Flatpak
 
@@ -289,7 +291,13 @@ sudo pacman -S pot-translation
 
 Pot provides a complete HTTP interface for integration with other software. You can call pot by sending HTTP requests to `127.0.0.1:port`, where `port` is the listening port of pot, default to `60828`, and can be changed in the app settings.
 
-## API Docs:
+## The API Docs:
+
+If you encounter any issues, please provide the error logs. Here is an example reference to the [github_actions_error_logs.txt](github_actions_error_logs.txt) file:
+
+```bash
+
+```
 
 ```bash
 POST "/" => Translate given text (body is text to translate)
