@@ -6,7 +6,7 @@
             "instance_name": "Nom de la configuration",
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
+                    "appkey": "Clé de l'application",
                     "key": "Clé",
                     "title": "Youdao"
                 },
@@ -23,7 +23,7 @@
                     "openai": "OpenAI",
                     "request_path": "Chemin de la requête",
                     "stream": "Mode flux",
-                    "service": "Fournisseur de service",
+                    "service": "Service",
                     "model": "Modèle",
                     "add": "Ajouter une invite",
                     "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement d'OpenAI. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
@@ -340,7 +340,7 @@
                 "auto_copy": "Copie automatique",
                 "dynamic_translate": "Traduction dynamique",
                 "mouse": "Suivre la souris",
-                "source_target": "Origine+Destination",
+                "source_target": "Source + Destinataire",
                 "source_language": "Langue d'origine",
                 "pre_state": "Mémoriser la position",
                 "always_on_top": "Toujours au premier plan",
