@@ -402,7 +402,7 @@
                 "set_hotkey": "Appuyer pour définir"
             },
             "service": {
-                "add_service": "Ajouter un service",
+                "add_service": "Ajouter un service", "add_builtin_service": "Ajouter un service int\u00e9gr\u00e9",
                 "uninstall_success": "L'extension a bien été désinstallée",
                 "least": "Veuillez en conserver au moins un",
                 "tts": "TTS",
@@ -435,7 +435,7 @@
                 "qq_channel": "Canal QQ",
                 "view_log": "Voir les journaux"
             },
-            "history": {
+            "history": {"label": "Historique","title": "Historique",
                 "label": "Historique",
                 "title": "Historique"
             }
@@ -446,7 +446,7 @@
             "retry": "Réessayer",
             "recognizing": "Reconnaissance…",
             "translate_back": "Revenir à la traduction d'origine",
-            "translate": "Traduire",
+            "translate": "Traduire","delete_newline": "Supprimer le retour \u00e0 la ligne","add_collection_success": "L'\u00e9l\u00e9ment a bien \u00e9t\u00e9 ajout\u00e9 \u00e0 la collection",
             "copy": "Copier",
             "speak": "Écouter"
         },
