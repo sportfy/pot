@@ -22,8 +22,8 @@
             "de": "German",
             "it": "Italian",
             "tr": "Turkish",
-            "pt_pt": "Portuguese",
-            "pt_br": "Portuguese (Brazil)",
+            "pt_pt": "Português (Portugal)",
+            "pt_br": "Português (Brasil)",
             "vi": "Vietnamese",
             "id": "Indonesian",
             "th": "Thai",
@@ -211,7 +211,7 @@
                 "qq_channel": "QQ Channel",
                 "qq_group": "QQ Group",
                 "telegram": "Telegram",
-                "discussion": "Github Discussion"
+                "discussion": "Discussão no GitHub"
             }
         },
         "updater": {

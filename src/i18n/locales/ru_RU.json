@@ -201,17 +201,17 @@
                 "title": "О программе",
                 "website": "Сайт",
                 "github": "GitHub",
-                "feedback": "Обратная связь",
-                "issue": "Проблема",
-                "email": "Эл. почта",
-                "community": "Сообщество",
-                "check_update": "Обновление",
-                "view_log": "Журнал",
-                "view_config": "Конфигурация",
-                "qq_channel": "QQ канал",
-                "qq_group": "QQ группа",
+                "feedback": "Feedback",
+                "issue": "Issue",
+                "email": "Email",
+                "community": "Community",
+                "check_update": "Check Update",
+                "view_log": "View Log",
+                "view_config": "View Config",
+                "qq_channel": "QQ Channel",
+                "qq_group": "QQ Group",
                 "telegram": "Telegram",
-                "discussion": "Обсуждение на GitHub"
+                "discussion": "Discussion on GitHub"
             }
         },
         "updater": {
