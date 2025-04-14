@@ -7,7 +7,7 @@
             "translate": {
                 "youdao": {
                     "appkey": "ID d'application",
-                    "key": "Clé",
+                    "key": "NEW_KEY",
                     "title": "Youdao"
                 },
                 "deepl": {

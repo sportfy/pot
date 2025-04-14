@@ -1,10 +1,10 @@
 {
     "translation": {
         "common": {
-            "ok": "Ok",
-            "cancel": "Cancelar",
-            "save": "Salvar",
-            "write_clipboard": "Escrever na Área de Transferência",
+            "ok": "OK_VALUE",
+            "cancel": "CANCEL_VALUE",
+            "save": "SAVE_VALUE",
+            "write_clipboard": "WRITE_CLIPBOARD_VALUE",
             "plugin": "Plugin",
             "coming": "Em breve…",
             "clear": "Claro"
