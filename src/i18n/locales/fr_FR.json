@@ -45,7 +45,7 @@
                     "chatglm_std": "ChatGLM Std",
                     "add": "Ajouter une invite",
                     "prompt_description": "En personnalisant l'invite, vous pouvez personnaliser le comportement de l'IA. Le texte $from $to $detect sera remplacé par le texte à traduire, la langue d'origine, la langue de destination et la langue détectée.",
-                    "chatglm_turbo": "ChatGLM Turbo"
+                    "chatglm_turbo": "ChatGLM Turbo",
                 },
                 "transmart": {
                     "username": "Nom d'utilisateur",

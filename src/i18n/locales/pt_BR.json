@@ -320,6 +320,8 @@
                 },
                 "caiyun": {
                     "title": "Caiyun",
+                "token": "Token"
+                },
                     "token": "Token"
                 },
                 "chatglm": {
