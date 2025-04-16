@@ -136,7 +136,7 @@
                 }
             },
             "recognize": {
-                "iflytek_latex_ocr": {
+                "Iflytek Latex OCR_1": {
                     "apikey": "Clé d'API",
                     "title": "LaTeX iFlyTek",
                     "apisecret": "Clé secrète de l'API",
