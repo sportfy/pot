@@ -408,15 +408,15 @@
                 "tts": "TTS",
                 "homepage": "Page d'accueil",
                 "translate": "Traduire",
-                "recognize": "Reconnaissance",
+                "old_recognize": "Reconnaissance"
                 "collection": "Collection",
                 "view_plugin_list": "Voir la liste des extensions",
                 "install_plugin": "Installer l'extension",
                 "add_external_service": "Ajouter une extension",
                 "title": "Paramètres de service",
                 "add_builtin_service": "Ajouter un service intégré",
-                "label": "Service",
-                "test_failed": "Le test a échoué"
+                "same_label": "Service"
+                "test_failed": "Test échoué"
             },
             "about": {
                 "title": "À propos de l'application",
@@ -463,7 +463,7 @@
         "recognize": {
             "translate": "Traduire",
             "delete_newline": "Supprimer le retour à la ligne",
-            "recognize": "Reconnaissance",
+            "old_recognize": "Reconnaissance",
             "copy_text": "Copier",
             "copy_img": "Copier l'image",
             "delete_space": "Supprimer l'espace"
