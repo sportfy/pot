@@ -6,7 +6,7 @@
             "instance_name": "Nom de la configuration",
             "translate": {
                 "youdao": {
-                    "appkey": "ID d'application",
+                    "appkey": "Clé d'application",
                     "key": "Clé",
                     "title": "Youdao"
                 },
@@ -17,7 +17,7 @@
                     "title": "DeepL",
                     "api": "Clé d'authentification",
                     "auth_key": "Clé d'authentification",
-                    "custom_url": "URL DeepLX"
+                    "custom_url": "URL personnalisée DeepLX"
                 },
                 "openai": {
                     "openai": "OpenAI",
@@ -95,7 +95,7 @@
                 },
                 "google": {
                     "title": "Google",
-                    "custom_url": "URL personnalisée"
+                    "custom_url": "URL personnalisée Google"
                 },
                 "yandex": {
                     "title": "Yandex"
