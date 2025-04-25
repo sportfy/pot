@@ -415,7 +415,7 @@
                 "add_external_service": "Ajouter une extension",
                 "title": "Paramètres de service",
                 "add_builtin_service": "Ajouter un service intégré",
-                "label": "Service",
+                "label": "Service ",
                 "test_failed": "Le test a échoué"
             },
             "about": {
