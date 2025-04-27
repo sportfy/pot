@@ -419,7 +419,7 @@
                 "test_failed": "Le test a échoué"
             },
             "about": {
-                "title": "À propos de l'application",
+                "title": "About the Application",
                 "qq_group": "Groupe QQ",
                 "website": "Site Web",
                 "check_update": "Vérifier les mises à jour",
