@@ -2,7 +2,7 @@
     "translation": {
         "common": {
             "ok": "ОК",
-            "cancel": "Отмена",
+            "Отмена": "Отмена",
             "save": "Сохранить",
             "write_clipboard": "Сохранить в буфер обмена",
             "plugin": "Плагин",
@@ -10,7 +10,7 @@
             "clear": "Очистить"
         },
         "languages": {
-            "auto": "Автоопределение",
+            "Автоопределение": "Автоопределение",
             "zh_cn": "Упрощённый китайский",
             "zh_tw": "Традиционный китайский",
             "ja": "Японский",
@@ -202,8 +202,8 @@
                 "website": "Сайт",
                 "github": "GitHub",
                 "feedback": "Обратная связь",
-                "issue": "Проблема",
-                "email": "Эл. почта",
+                "issue": "Проблема", "Проблема", "Проблема",
+                "email": "Эл. почта", "Эл. почта", "Эл. почта",
                 "community": "Сообщество",
                 "check_update": "Обновление",
                 "view_log": "Журнал",
@@ -385,7 +385,7 @@
                     "title": "iFlyTek OCR",
                     "appid": "App ID",
                     "apisecret": "API Secret",
-                    "apikey": "API Key"
+                    "token": "API Key"
                 },
                 "iflytek_intsig_ocr": {
                     "title": "iFlyTek OCR (Intsig)",
@@ -466,7 +466,7 @@
             "copy_img": "Копировать изображение",
             "copy_text": "Копировать",
             "delete_newline": "Удалить новую строку",
-            "delete_space": "Удалить пробелы"
+            "delete_space": "Удалить пробелы и форматирование"
         }
     }
 }
