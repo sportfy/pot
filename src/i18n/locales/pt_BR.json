@@ -197,19 +197,19 @@
                 "aliyun": "Aliyun Drive"
             },
             "about": {
-                "label": "Sobre",
-                "title": "Sobre o Aplicativo",
+                "label": "About",
+                "title": "About the Application",
                 "website": "Website",
                 "github": "GitHub",
                 "feedback": "Realimentação",
-                "issue": "Problemas",
+                "issue": "Issues",
                 "email": "Email",
-                "community": "Comunidade",
+                "community": "Community",
                 "check_update": "Checar por Atualização",
-                "view_log": "Exibir Registro",
+                "view_log": "View Log",
                 "view_config": "Exibir Configuração",
-                "qq_channel": "Canal no QQ",
-                "qq_group": "Grupo QQ",
+                "qq_channel": "QQ Channel",
+                "qq_group": "QQ Group",
                 "telegram": "Telegram",
                 "discussion": "Discussão no GitHub"
             }
